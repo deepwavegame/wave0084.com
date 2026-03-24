@@ -1,17 +1,14 @@
 // @ts-check
-// Note: Chỉnh sửa cấu hình Docusaurus cho Wave0084 Portfolio
+// Note: Chỉnh sửa cấu hình Docusaurus cho Wave0084 Studio - Phiên bản Nâng cấp
 
 const config = {
-  title: 'Wave0084.com',
-  tagline: 'Senior Web Developer & DevOps Expert',
+  title: 'Wave0084 Studio',
+  tagline: 'Indie Horror Game Studio & Unity Asset Creator',
   favicon: 'img/favicon.ico',
 
-  // Cấu hình URL cho GitHub Pages
   url: 'https://deepwavegame.github.io',
-  // Tên thư mục con trên GitHub Pages (thường khớp với tên repo)
   baseUrl: '/wave0084.com/',
 
-  // Thông tin tổ chức và dự án GitHub
   organizationName: 'deepwavegame',
   projectName: 'wave0084.com',
   deploymentBranch: 'gh-pages',
@@ -21,8 +18,15 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'vi',
-    locales: ['vi'],
+    defaultLocale: 'en',
+    locales: ['en', 'vi', 'zh', 'ja', 'id'],
+    localeConfigs: {
+      en: { label: 'English' },
+      vi: { label: 'Tiếng Việt' },
+      zh: { label: '中文' },
+      ja: { label: '日本語' },
+      id: { label: 'Bahasa Indonesia' },
+    },
   },
 
   presets: [
@@ -31,7 +35,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: 'docs', // Giữ route mặc định cho docs chung hoặc tool chính
         },
         blog: {
           showReadingTime: true,
@@ -46,27 +52,47 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Wave0084',
+        title: 'WAVE0084',
         logo: {
           alt: 'Wave0084 Logo',
           src: 'img/logo.svg',
+          style: { filter: 'drop-shadow(0 0 5px #00e5ff)' },
         },
         items: [
-          // Mục Products (Dẫn tới trang tùy chỉnh)
-          {to: '/products', label: 'Products', position: 'left'},
-          // Mục Documentation (Dẫn tới thư mục docs)
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Documentation',
-          },
-          // Mục Blog
+          {to: '/games', label: 'Games', position: 'left'},
+          {to: '/tools', label: 'Tools', position: 'left'},
+          {to: '/assets', label: 'Assets', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/deepwavegame/wave0084.com',
+            type: 'dropdown',
+            label: 'Documentation',
+            position: 'left',
+            items: [
+              {
+                type: 'docSidebar',
+                sidebarId: 'unitySmartSheetSidebar',
+                label: 'Unity Smart Sheet',
+              },
+              {
+                type: 'docSidebar',
+                sidebarId: 'simplePaintSidebar',
+                label: 'Simple Paint',
+              },
+            ],
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/deepwavegame',
             label: 'GitHub',
             position: 'right',
           },
@@ -76,25 +102,29 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Studio',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+              { label: 'Games', to: '/games' },
+              { label: 'Tools', to: '/tools' },
+              { label: 'Assets', to: '/assets' },
             ],
           },
           {
-            title: 'Community',
+            title: 'Documentation',
             items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/deepwavegame/wave0084.com',
-              },
+              { label: 'Unity Smart Sheet', to: '/docs/tools/unity-smart-sheet/intro' },
+              { label: 'Simple Paint', to: '/docs/tools/simple-paint/intro' },
+            ],
+          },
+          {
+            title: 'Social',
+            items: [
+              { label: 'GitHub', href: 'https://github.com/deepwavegame' },
+              { label: 'Twitter', href: '#' },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Wave0084.com. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Wave0084 Studio. Built with Docusaurus.`,
       },
     }),
 };

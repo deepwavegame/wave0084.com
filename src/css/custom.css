@@ -1,30 +1,231 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Unity-Horror Modern Aesthetic
+ * Inspired by Unity Editor Dark Theme
  */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #00e5ff; /* Ghostly Cyan */
+  --ifm-color-primary-dark: #00cce3;
+  --ifm-color-primary-darker: #00c0d6;
+  --ifm-color-primary-darkest: #009eb0;
+  --ifm-color-primary-light: #33eaff;
+  --ifm-color-primary-lighter: #4defff;
+  --ifm-color-primary-lightest: #99f8ff;
+  
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 229, 255, 0.1);
+  
+  /* Palette: Dark Slate (#1c1c1c), Deep Black (#0a0a0a) */
+  --ifm-background-color: #0a0a0a;
+  --ifm-background-surface-color: #1c1c1c;
+  --ifm-color-content: #b0b0b0;
+  --ifm-heading-color: #ffffff;
+  --ifm-font-family-base: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  
+  --ifm-navbar-background-color: #0a0a0a;
+  --ifm-footer-background-color: #050505;
+  
+  --ifm-menu-color: #888888;
+  --ifm-menu-color-active: #00e5ff;
+  --ifm-menu-color-background-active: rgba(0, 229, 255, 0.05);
+  --ifm-menu-color-background-hover: rgba(255, 255, 255, 0.03);
+  
+  --ifm-toc-border-color: #222222;
+  --ifm-navbar-height: 4rem;
+  
+  /* Border Radius: Minimal (2px - 4px) */
+  --ifm-global-radius: 2px;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #00e5ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 229, 255, 0.1);
+}
+
+/* Base resets */
+body {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-content);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Sharp & Technical Navbar */
+.navbar {
+  border-bottom: 1px solid #222222;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.navbar__title {
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #ffffff !important;
+}
+
+.navbar__link--active {
+  color: var(--ifm-color-primary) !important;
+}
+
+/* Product Cards & Unity-style Containers */
+.unity-card {
+  background-color: #1c1c1c;
+  border: 1px solid #2a2a2a;
+  border-radius: var(--ifm-global-radius);
+  padding: 1.5rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.unity-card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.15);
+  transform: translateY(-4px);
+}
+
+.unity-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--ifm-color-primary), transparent);
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+
+.unity-card:hover::before {
+  transform: translateX(100%);
+}
+
+.unity-card h3 {
+  color: #ffffff;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Buttons */
+.unity-button {
+  background-color: #2a2a2a;
+  border: 1px solid #3a3a3a;
+  color: #ffffff;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--ifm-global-radius);
+  cursor: pointer;
+  text-decoration: none !important;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.2s;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.unity-button:hover {
+  background-color: #3a3a3a;
+  border-color: #555555;
+}
+
+.unity-button.primary {
+  background-color: var(--ifm-color-primary);
+  color: #000000;
+  border-color: var(--ifm-color-primary);
+}
+
+.unity-button.primary:hover {
+  background-color: #33eaff;
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.4);
+}
+
+/* Horror / Mystery Elements */
+.horror-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.horror-title::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 #ff003c;
+  top: 0;
+  color: #ffffff;
+  background: #0a0a0a;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim {
+  0% { clip: rect(10px, 9999px, 50px, 0); }
+  20% { clip: rect(30px, 9999px, 20px, 0); }
+  40% { clip: rect(60px, 9999px, 90px, 0); }
+  60% { clip: rect(10px, 9999px, 40px, 0); }
+  80% { clip: rect(80px, 9999px, 10px, 0); }
+  100% { clip: rect(40px, 9999px, 70px, 0); }
+}
+
+.mystery-bg {
+  background: 
+    linear-gradient(to bottom, rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 1)),
+    url('https://images.unsplash.com/photo-1505634467193-703328080f5d?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.mystery-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, transparent 0%, #0a0a0a 100%);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.section-title span {
+  color: var(--ifm-color-primary);
+}
+
+/* Sidebar & Doc elements */
+.menu__link--active {
+  border-left: 2px solid var(--ifm-color-primary);
+  border-radius: 0;
+}
+
+.theme-doc-sidebar-menu {
+  padding: 1.5rem !important;
+}
+
+/* Glitch effect on hover for special items */
+.glitch-hover:hover {
+  animation: glitch 0.3s cubic-bezier(.25, .46, .45, .94) both infinite;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
 }

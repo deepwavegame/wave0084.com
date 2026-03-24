@@ -1,0 +1,74 @@
+{
+  "homepage.tagline": {
+    "message": "Indie Horror Studio & Giải pháp Kỹ thuật",
+    "description": "Tagline trên trang chủ"
+  },
+  "homepage.cta.latest_game": {
+    "message": "DỰ ÁN MỚI NHẤT",
+    "description": "Nút dự án mới nhất"
+  },
+  "homepage.cta.explore_tools": {
+    "message": "KHÁM PHÁ CÔNG CỤ",
+    "description": "Nút khám phá công cụ"
+  },
+  "homepage.sections.about.title.part1": {
+    "message": "CHÚNG TÔI LÀ ",
+    "description": "Tiêu đề phần giới thiệu phần 1"
+  },
+  "homepage.sections.about.description": {
+    "message": "Một studio indie kỹ thuật chuyên về kinh dị tâm lý và các công cụ Unity hiệu suất cao. Chúng tôi vượt qua ranh giới của nỗi sợ hãi kỹ thuật số và hiệu quả quy trình sáng tạo.",
+    "description": "Mô tả phần giới thiệu"
+  },
+  "homepage.sections.featured.title.part1": {
+    "message": "ĐỘNG LỰC ",
+    "description": "Tiêu đề phần đặc trưng phần 1"
+  },
+  "homepage.features.games.title": {
+    "message": "Trò chơi",
+    "description": "Tiêu đề tính năng game"
+  },
+  "homepage.features.games.desc": {
+    "message": "Trải nghiệm kinh dị sâu sắc, không khí ám ảnh được xây dựng trên HDRP.",
+    "description": "Mô tả tính năng game"
+  },
+  "homepage.features.games.cta": {
+    "message": "Chơi ngay",
+    "description": "Nút tính năng game"
+  },
+  "homepage.features.tools.title": {
+    "message": "Công cụ",
+    "description": "Tiêu đề tính năng công cụ"
+  },
+  "homepage.features.tools.desc": {
+    "message": "Các gói Unity chuyên nghiệp được sử dụng trong chính quy trình sản xuất của chúng tôi.",
+    "description": "Mô tả tính năng công cụ"
+  },
+  "homepage.features.tools.cta": {
+    "message": "Xem thông số",
+    "description": "Nút tính năng công cụ"
+  },
+  "homepage.features.assets.title": {
+    "message": "Tài nguyên",
+    "description": "Tiêu đề tính năng tài nguyên"
+  },
+  "homepage.features.assets.desc": {
+    "message": "Mô hình 3D chất lượng cao và các bộ môi trường cho dự án của bạn.",
+    "description": "Mô tả tính năng tài nguyên"
+  },
+  "homepage.features.assets.cta": {
+    "message": "Lấy tài nguyên",
+    "description": "Nút tính năng tài nguyên"
+  },
+  "games.view_details": {
+    "message": "KÍCH HOẠT GIAO THỨC",
+    "description": "Nút xem chi tiết game"
+  },
+  "tools.view_specs": {
+    "message": "THÔNG SỐ KỸ THUẬT",
+    "description": "Nút xem thông số công cụ"
+  },
+  "tools.view_docs": {
+    "message": "TÀI LIỆU HƯỚNG DẪN",
+    "description": "Nút xem tài liệu công cụ"
+  }
+}
