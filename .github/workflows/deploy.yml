@@ -3,7 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # Chạy khi push vào nhánh chính
+      - main
+    paths:
+      - 'package.json' # Chỉ kích hoạt khi package.json có thay đổi
 
 permissions:
   contents: write
@@ -16,21 +18,45 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 2 # Lấy ít nhất 2 commit để so sánh version
+
+      - name: Check if version changed
+        id: check_version
+        run: |
+          # Lấy version hiện tại
+          NEW_VERSION=$(node -p "require('./package.json').version")
+          
+          # Lấy version từ commit trước đó
+          OLD_VERSION=$(git show HEAD^:package.json | node -p "JSON.parse(process.stdin.read()).version" 2>/dev/null || echo "none")
+          
+          echo "Old version: $OLD_VERSION"
+          echo "New version: $NEW_VERSION"
+          
+          if [ "$NEW_VERSION" != "$OLD_VERSION" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Version has changed. Proceeding with deploy."
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Version has not changed. Skipping deploy."
+          fi
 
       - name: Setup Node.js
+        if: steps.check_version.outputs.changed == 'true'
         uses: actions/setup-node@v4
         with:
-          node-version: 20 # Sử dụng phiên bản Node.js 20+ để tương thích với package.json
+          node-version: 20
           cache: 'npm'
 
       - name: Install dependencies
+        if: steps.check_version.outputs.changed == 'true'
         run: npm install
 
       - name: Build Docusaurus
+        if: steps.check_version.outputs.changed == 'true'
         run: npm run build
 
       - name: Deploy to GitHub Pages
+        if: steps.check_version.outputs.changed == 'true'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
