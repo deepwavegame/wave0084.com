@@ -11,8 +11,10 @@ const games = [
       </Translate>
     ),
     link: '/games/my-sister',
+    steam: 'https://store.steampowered.com/app/example',
+    itch: 'https://deepwavegame.itch.io/my-sister',
     status: 'released',
-    image: null, // Placeholder or path
+    thumbnail: 'https://images.unsplash.com/photo-1505634467193-703328080f5d?auto=format&fit=crop&w=800&q=80',
   },
   {
     id: 'classified-1',
@@ -20,7 +22,7 @@ const games = [
     description: 'Under Development',
     link: '#',
     status: 'development',
-    image: null,
+    thumbnail: null,
   }
 ];
 

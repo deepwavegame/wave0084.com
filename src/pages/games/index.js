@@ -25,7 +25,16 @@ export default function Games() {
                    </div>
                 ) : (
                   <>
-                    <div style={{ height: '300px', backgroundColor: '#050505', display: 'flex', alignItems: 'center', justifyContent: 'center', borderBottom: '1px solid #222' }}>
+                    <div style={{ 
+                      height: '300px', 
+                      backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(${game.thumbnail})`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      justifyContent: 'center', 
+                      borderBottom: '1px solid #222' 
+                    }}>
                       <h2 className="horror-title" style={{ fontSize: '3rem', letterSpacing: '8px' }}>
                         {game.id.toUpperCase().replace('-', ' ')}
                       </h2>
@@ -35,9 +44,10 @@ export default function Games() {
                       <p style={{ color: '#aaa', fontSize: '0.95rem', lineHeight: '1.6' }}>
                         {game.description}
                       </p>
-                      <div style={{ marginTop: 'auto', paddingTop: '2rem' }}>
+                      
+                      <div style={{ marginTop: 'auto', paddingTop: '1rem' }}>
                         <Link className="unity-button primary" to={game.link} style={{ width: '100%' }}>
-                          <Translate id="games.view_details">PROTOCOL INITIATE</Translate>
+                          <Translate id="games.view_details">SPECIFICATIONS</Translate>
                         </Link>
                       </div>
                     </div>

@@ -28,7 +28,7 @@ Your goal is to build a high-end, high-performance portfolio website using Docus
 - Features: Documentation for Unity Packages, Product Showcase, and Dev Blog.
 
 # Context:
-The project is located at https://github.com/deepwavegame/wave0084.com.
+The project is located at https://github.com/deepwavegame/deepwavegame.github.io.git.
 Current focus: Developing the "Simple Painter" package documentation and a grid-based product showcase.
 
 # User:

@@ -12,6 +12,10 @@ const tools = [
     ),
     link: '/tools/unity-smart-sheet',
     docs: '/docs/tools/unity-smart-sheet/intro',
+    type: 'Unity Package',
+    assetStore: 'https://assetstore.unity.com/packages/slug/example',
+    itch: 'https://deepwavegame.itch.io/unity-smart-sheet',
+    thumbnail: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80',
   },
   {
     id: 'simple-paint',
@@ -23,6 +27,21 @@ const tools = [
     ),
     link: '/tools/simple-paint',
     docs: '/docs/tools/simple-paint/intro',
+    type: 'Unity Package',
+    assetStore: 'https://assetstore.unity.com/packages/slug/example-2',
+    itch: 'https://deepwavegame.itch.io/simple-paint',
+    thumbnail: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'blender-horror-exporter',
+    title: 'Horror Asset Exporter',
+    description: 'Automated pipeline for exporting horror-ready assets from Blender to Unity with optimized LODs.',
+    link: '#',
+    docs: '#',
+    type: 'Blender Addon',
+    blenderMarket: 'https://blendermarket.com/products/example',
+    itch: 'https://deepwavegame.itch.io/horror-exporter',
+    thumbnail: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80',
   }
 ];
 

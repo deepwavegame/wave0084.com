@@ -1,8 +1,11 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import tools from '@site/src/data/tools';
 
 export default function UnitySmartSheetSales() {
+  const toolData = tools.find(t => t.id === 'unity-smart-sheet');
+
   return (
     <Layout
       title="Unity Smart Sheet"
@@ -32,8 +35,21 @@ export default function UnitySmartSheetSales() {
               <div className="unity-card" style={{ position: 'sticky', top: '100px', backgroundColor: '#1e1e1e', border: '1px solid #3d8bff' }}>
                 <h3 style={{ textAlign: 'center', color: '#3d8bff', fontSize: '2rem', margin: '1rem 0' }}>$24.99</h3>
                 <p style={{ textAlign: 'center', fontSize: '0.9rem' }}>Thanh toán một lần. Hỗ trợ cập nhật trọn đời.</p>
-                <button className="unity-button primary" style={{ width: '100%', padding: '1rem', fontSize: '1.2rem', marginBottom: '1rem' }} onClick={() => alert('Chức năng thanh toán đang được phát triển!')}>Mua trên Unity Asset Store</button>
-                <ul style={{ fontSize: '0.9rem', color: '#aaa' }}>
+                
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  {toolData?.assetStore && (
+                    <Link className="unity-button btn-unity" style={{ width: '100%', padding: '1rem', fontSize: '1rem' }} to={toolData.assetStore}>
+                      BUY ON ASSET STORE
+                    </Link>
+                  )}
+                  {toolData?.itch && (
+                    <Link className="unity-button btn-itch" style={{ width: '100%', padding: '1rem', fontSize: '1rem' }} to={toolData.itch}>
+                      BUY ON ITCH.IO
+                    </Link>
+                  )}
+                </div>
+
+                <ul style={{ fontSize: '0.9rem', color: '#aaa', marginTop: '2rem' }}>
                   <li>Yêu cầu Unity 2021.3+</li>
                   <li>Kích thước: 2.5 MB</li>
                   <li>Phiên bản hiện tại: v1.2.0</li>

@@ -1,8 +1,11 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import games from '@site/src/data/games';
 
 export default function MySisterGame() {
+  const gameData = games.find(g => g.id === 'my-sister');
+  
   return (
     <Layout
       title="My Sister - Em Gái Tôi"
@@ -13,8 +16,14 @@ export default function MySisterGame() {
         <header className="hero mystery-bg" style={{ minHeight: '60vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
           <h1 className="horror-title" style={{ fontSize: '5rem', marginBottom: '1rem' }}>MY SISTER</h1>
           <h2 style={{ color: '#aaa', fontWeight: 'normal', letterSpacing: '1px' }}>EM GÁI TÔI</h2>
-          <div style={{ marginTop: '2rem' }}>
+          <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem' }}>
             <a className="unity-button primary" href="#trailer" style={{ fontSize: '1.2rem', padding: '1rem 2rem' }}>Xem Trailer</a>
+            {gameData?.steam && (
+              <Link className="unity-button btn-steam" to={gameData.steam} style={{ fontSize: '1.2rem', padding: '1rem 2rem' }}>STEAM</Link>
+            )}
+            {gameData?.itch && (
+              <Link className="unity-button btn-itch" to={gameData.itch} style={{ fontSize: '1.2rem', padding: '1rem 2rem' }}>ITCH.IO</Link>
+            )}
           </div>
         </header>
 
@@ -45,7 +54,7 @@ export default function MySisterGame() {
                 <div className="col col--4">
                   <div className="unity-card" style={{ height: '100%' }}>
                     <h3>Đồ Họa Ám Ảnh</h3>
-                    <p>Sử dụng công nghệ ánh sáng tiên tiến trên Unity HDRP, mang lại không gian chân thực và tăm tối đến nghẹt thở.</p>
+                    <p>Sử dụng công nghệ ánh sáng tiên tiến trên Unity HDRP, mang lại không gian chân thực và tăm tối đến nghêt thở.</p>
                   </div>
                 </div>
                 <div className="col col--4">

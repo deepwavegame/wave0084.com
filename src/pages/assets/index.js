@@ -12,23 +12,48 @@ function AssetGrid({ children }) {
   );
 }
 
-function AssetCard({ title, type, description, price, link }) {
+function AssetCard({ asset }) {
   return (
     <div className="col col--4" style={{ marginBottom: '2rem' }}>
-      <div className="unity-card" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-        <div style={{ height: '180px', backgroundColor: '#050505', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.5rem', border: '1px solid #222' }}>
-          <span style={{ color: '#333', fontSize: '0.8rem', letterSpacing: '2px' }}>[ PREVIEW_UNAVAILABLE ]</span>
+      <div className="unity-card" style={{ height: '100%', display: 'flex', flexDirection: 'column', padding: '0', overflow: 'hidden' }}>
+        <div style={{ 
+          height: '180px', 
+          backgroundImage: `url(${asset.thumbnail})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          borderBottom: '1px solid #222' 
+        }}>
         </div>
-        <div style={{ flexGrow: 1 }}>
-          <span style={{ color: '#00e5ff', fontSize: '0.7rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '2px' }}>{type}</span>
-          <h3 style={{ marginTop: '0.5rem', fontSize: '1.1rem' }}>{title}</h3>
-          <p style={{ color: '#888', fontSize: '0.85rem', lineHeight: '1.5' }}>{description}</p>
-        </div>
-        <div style={{ marginTop: '1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <span style={{ fontWeight: '800', color: '#ffffff' }}>{price}</span>
-          <Link className="unity-button primary" to={link} style={{ padding: '0.4rem 0.8rem', fontSize: '0.75rem' }}>
-             <Translate id="assets.cta.acquire">ACQUIRE</Translate>
-          </Link>
+        
+        <div style={{ padding: '1.5rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+          <span style={{ color: '#00e5ff', fontSize: '0.7rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '2px' }}>{asset.type}</span>
+          <h3 style={{ marginTop: '0.5rem', fontSize: '1.1rem', marginBottom: '1rem' }}>{asset.title}</h3>
+          <p style={{ color: '#888', fontSize: '0.85rem', lineHeight: '1.5', flexGrow: 1 }}>{asset.description}</p>
+          
+          <div style={{ marginTop: '1.5rem', borderTop: '1px solid #222', paddingTop: '1.5rem' }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', justifyContent: 'center' }}>
+              {asset.cgTrader && (
+                <Link className="unity-button btn-sm btn-cgtrader" to={asset.cgTrader} style={{ margin: 0, flex: '1 1 45%' }}>
+                  CGTRADER
+                </Link>
+              )}
+              {asset.blenderMarket && (
+                <Link className="unity-button btn-sm btn-blender" to={asset.blenderMarket} style={{ margin: 0, flex: '1 1 45%' }}>
+                  BLENDER MARKET
+                </Link>
+              )}
+              {asset.assetStore && (
+                <Link className="unity-button btn-sm btn-unity" to={asset.assetStore} style={{ margin: 0, flex: '1 1 45%' }}>
+                  ASSET STORE
+                </Link>
+              )}
+              {asset.itch && (
+                <Link className="unity-button btn-sm btn-itch" to={asset.itch} style={{ margin: 0, flex: '1 1 45%' }}>
+                  ITCH.IO
+                </Link>
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -48,14 +73,7 @@ export default function Assets() {
         
         <AssetGrid>
           {assets.map((asset) => (
-            <AssetCard 
-              key={asset.id}
-              title={asset.title}
-              type={asset.type || '3D Models'}
-              description={asset.description}
-              price={asset.price}
-              link={asset.link}
-            />
+            <AssetCard key={asset.id} asset={asset} />
           ))}
         </AssetGrid>
       </main>
