@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18 # Sử dụng phiên bản Node.js ổn định
+          node-version: 20 # Sử dụng phiên bản Node.js 20+ để tương thích với package.json
           cache: 'npm'
 
       - name: Install dependencies
