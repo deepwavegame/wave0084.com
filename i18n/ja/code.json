@@ -122,37 +122,37 @@
   "games.lil-sis.feature3.desc": {
     "message": "ただ逃げるだけでなく、超常現象に基づいたパズルシステムを通じて、記憶を解き明かし、つなぎ合わせる必要があります。"
   },
-  "tools.unity-smart-sheet.title": {
-    "message": "Unity Smart Sheet"
+  "tools.infinite-corrugated-roof.title": {
+    "message": "Infinite Corrugated Roof"
   },
-  "tools.unity-smart-sheet.description": {
-    "message": "Unity エディター内での強力な data 管理。Google スプレッドシートを ScriptableObjects に直接インポート、編集、同期します。"
+  "tools.infinite-corrugated-roof.description": {
+    "message": "Unity向け高性能プロシージャル屋根システム。スプライン変形によるカスタマイズ可能な波板屋根を生成。"
   },
-  "tools.unity-smart-sheet.hero.desc": {
-    "message": "Unity エディター内でスプレッドシートインターフェースを使用した、ゲーム向けの包括的なデータ管理ソリューション。"
+  "tools.infinite-corrugated-roof.hero.desc": {
+    "message": "Unityで高度にカスタマイズ可能な波板屋根システムを生成するための、プロダクション対応のプロシージャルツール。"
   },
-  "tools.unity-smart-sheet.why.title": {
-    "message": "Unity Smart Sheet を選ぶ理由"
+  "tools.infinite-corrugated-roof.why.title": {
+    "message": "Infinite Corrugated Roof を選ぶ理由"
   },
-  "tools.unity-smart-sheet.why.item1": {
-    "message": "Excel や Google スプレッドシートを開かずにデータを素早く編集できます。"
+  "tools.infinite-corrugated-roof.why.item1": {
+    "message": "グリッドベースのパネルシステムによる無限の拡張性。"
   },
-  "tools.unity-smart-sheet.why.item2": {
-    "message": "データを ScriptableObject や JSON に自動的にシリアライズします。"
+  "tools.infinite-corrugated-roof.why.item2": {
+    "message": "AnimationCurvesを使用した動的な波形プロファイル。"
   },
-  "tools.unity-smart-sheet.why.item3": {
-    "message": "Google スプレッドシート同期によるチームワークをサポート。"
+  "tools.infinite-corrugated-roof.why.item3": {
+    "message": "高度なモディファイア：スプライン変形とプロシージャルノイズ。"
   },
-  "tools.unity-smart-sheet.why.item4": {
-    "message": "入力時にデータを検証します。"
+  "tools.infinite-corrugated-roof.why.item4": {
+    "message": "3レベルのLODシステムとFBXベイク機能を内蔵。"
   },
-  "tools.unity-smart-sheet.specs.req": {
+  "tools.infinite-corrugated-roof.specs.req": {
     "message": "Unity 2021.3+ が必要"
   },
-  "tools.unity-smart-sheet.specs.size": {
+  "tools.infinite-corrugated-roof.specs.size": {
     "message": "サイズ: 2.5 MB"
   },
-  "tools.unity-smart-sheet.specs.version": {
+  "tools.infinite-corrugated-roof.specs.version": {
     "message": "現在のバージョン: v1.2.0"
   },
   "tools.simple-paint.title": {

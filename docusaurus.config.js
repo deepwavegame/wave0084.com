@@ -110,7 +110,7 @@ const config = {
           {
             title: 'Resources',
             items: [
-              { label: 'Documentation', to: '/docs/tools/unity-smart-sheet/intro' },
+              { label: 'Documentation', to: '/docs/tools/infinite-corrugated-roof/intro' },
               { label: 'Dev Blog', to: '/blog' },
               { label: 'Support', href: 'mailto:support@wave0084.com' },
             ],

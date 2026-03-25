@@ -128,37 +128,37 @@
   "games.lil-sis.feature3.desc": {
     "message": "Not just running away, you need to find out and piece together memories through a puzzle system based on supernatural phenomena."
   },
-  "tools.unity-smart-sheet.title": {
-    "message": "Unity Smart Sheet"
+  "tools.infinite-corrugated-roof.title": {
+    "message": "Infinite Corrugated Roof"
   },
-  "tools.unity-smart-sheet.description": {
-    "message": "Powerful data management within Unity Editor. Import, edit, and sync Google Sheets directly to ScriptableObjects."
+  "tools.infinite-corrugated-roof.description": {
+    "message": "High-performance procedural roofing system for Unity. Generate customizable corrugated roofs with spline deformation."
   },
-  "tools.unity-smart-sheet.hero.desc": {
-    "message": "Comprehensive data management solution for games using Spreadsheet interface right in Unity Editor."
+  "tools.infinite-corrugated-roof.hero.desc": {
+    "message": "Production-ready procedural tool for generating highly customizable corrugated roofing systems in Unity."
   },
-  "tools.unity-smart-sheet.why.title": {
-    "message": "Why choose Unity Smart Sheet?"
+  "tools.infinite-corrugated-roof.why.title": {
+    "message": "Why choose Infinite Corrugated Roof?"
   },
-  "tools.unity-smart-sheet.why.item1": {
-    "message": "Quickly edit data without opening Excel or Google Sheets."
+  "tools.infinite-corrugated-roof.why.item1": {
+    "message": "Infinite scalability with grid-based panel system."
   },
-  "tools.unity-smart-sheet.why.item2": {
-    "message": "Automatically Serialize data to ScriptableObject or JSON."
+  "tools.infinite-corrugated-roof.why.item2": {
+    "message": "Dynamic wave profiles using AnimationCurves."
   },
-  "tools.unity-smart-sheet.why.item3": {
-    "message": "Support teamwork via Google Sheets Sync."
+  "tools.infinite-corrugated-roof.why.item3": {
+    "message": "Advanced modifiers: Spline Deform & Procedural Noise."
   },
-  "tools.unity-smart-sheet.why.item4": {
-    "message": "Data validation upon entry."
+  "tools.infinite-corrugated-roof.why.item4": {
+    "message": "Built-in 3-level LOD system & FBX baking."
   },
-  "tools.unity-smart-sheet.specs.req": {
+  "tools.infinite-corrugated-roof.specs.req": {
     "message": "Requires Unity 2021.3+"
   },
-  "tools.unity-smart-sheet.specs.size": {
+  "tools.infinite-corrugated-roof.specs.size": {
     "message": "Size: 2.5 MB"
   },
-  "tools.unity-smart-sheet.specs.version": {
+  "tools.infinite-corrugated-roof.specs.version": {
     "message": "Current Version: v1.2.0"
   },
   "tools.simple-paint.title": {

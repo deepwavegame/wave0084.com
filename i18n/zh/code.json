@@ -122,37 +122,37 @@
   "games.lil-sis.feature3.desc": {
     "message": "不仅是逃跑，你还需要通过基于超自然现象的谜题系统找出并拼凑记忆。"
   },
-  "tools.unity-smart-sheet.title": {
-    "message": "Unity Smart Sheet"
+  "tools.infinite-corrugated-roof.title": {
+    "message": "Infinite Corrugated Roof"
   },
-  "tools.unity-smart-sheet.description": {
-    "message": "Unity 编辑器内强大的数据管理。直接将 Google 表格导入、编辑并同步到 ScriptableObjects。"
+  "tools.infinite-corrugated-roof.description": {
+    "message": "高性能 Unity 程序化屋顶系统。通过样条线变形生成可自定义的波纹屋顶。"
   },
-  "tools.unity-smart-sheet.hero.desc": {
-    "message": "在 Unity 编辑器中使用电子表格界面的全面游戏数据管理解决方案。"
+  "tools.infinite-corrugated-roof.hero.desc": {
+    "message": "生产级程序化工具，用于在 Unity 中生成高度可自定义的波纹屋顶系统。"
   },
-  "tools.unity-smart-sheet.why.title": {
-    "message": "为什么选择 Unity Smart Sheet？"
+  "tools.infinite-corrugated-roof.why.title": {
+    "message": "为什么选择 Infinite Corrugated Roof？"
   },
-  "tools.unity-smart-sheet.why.item1": {
-    "message": "无需打开 Excel 或 Google 表格即可快速编辑数据。"
+  "tools.infinite-corrugated-roof.why.item1": {
+    "message": "基于网格面板系统的无限可扩展性。"
   },
-  "tools.unity-smart-sheet.why.item2": {
-    "message": "自动将数据序列化为 ScriptableObject 或 JSON。"
+  "tools.infinite-corrugated-roof.why.item2": {
+    "message": "使用 AnimationCurves 的动态波形曲线。"
   },
-  "tools.unity-smart-sheet.why.item3": {
-    "message": "通过 Google 表格同步支持团队合作。"
+  "tools.infinite-corrugated-roof.why.item3": {
+    "message": "高级修改器：样条线变形和程序化噪声。"
   },
-  "tools.unity-smart-sheet.why.item4": {
-    "message": "输入时进行数据验证。"
+  "tools.infinite-corrugated-roof.why.item4": {
+    "message": "内置 3 级 LOD 系统和 FBX 烘焙。"
   },
-  "tools.unity-smart-sheet.specs.req": {
+  "tools.infinite-corrugated-roof.specs.req": {
     "message": "需要 Unity 2021.3+"
   },
-  "tools.unity-smart-sheet.specs.size": {
+  "tools.infinite-corrugated-roof.specs.size": {
     "message": "大小：2.5 MB"
   },
-  "tools.unity-smart-sheet.specs.version": {
+  "tools.infinite-corrugated-roof.specs.version": {
     "message": "当前版本：v1.2.0"
   },
   "tools.simple-paint.title": {

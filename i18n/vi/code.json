@@ -128,37 +128,37 @@
   "games.lil-sis.feature3.desc": {
     "message": "Không chỉ chạy trốn, bạn cần phải tìm hiểu và chắp vá những mảnh ký ức thông qua hệ thống giải đố dựa trên các hiện tượng siêu nhiên."
   },
-  "tools.unity-smart-sheet.title": {
-    "message": "Unity Smart Sheet"
+  "tools.infinite-corrugated-roof.title": {
+    "message": "Infinite Corrugated Roof"
   },
-  "tools.unity-smart-sheet.description": {
-    "message": "Quản lý dữ liệu mạnh mẽ ngay trong Unity Editor. Nhập, chỉnh sửa và đồng bộ Google Sheets trực tiếp vào ScriptableObjects."
+  "tools.infinite-corrugated-roof.description": {
+    "message": "Hệ thống mái tôn thủ tục hiệu suất cao cho Unity. Tạo mái tôn tùy chỉnh với biến dạng spline."
   },
-  "tools.unity-smart-sheet.hero.desc": {
-    "message": "Giải pháp quản lý dữ liệu toàn diện cho game bằng giao diện Spreadsheet ngay trong Unity Editor."
+  "tools.infinite-corrugated-roof.hero.desc": {
+    "message": "Công cụ thủ tục chuyên nghiệp để tạo hệ thống mái tôn tùy chỉnh cao trong Unity."
   },
-  "tools.unity-smart-sheet.why.title": {
-    "message": "Tại sao chọn Unity Smart Sheet?"
+  "tools.infinite-corrugated-roof.why.title": {
+    "message": "Tại sao chọn Infinite Corrugated Roof?"
   },
-  "tools.unity-smart-sheet.why.item1": {
-    "message": "Chỉnh sửa dữ liệu nhanh chóng mà không cần mở Excel hay Google Sheets."
+  "tools.infinite-corrugated-roof.why.item1": {
+    "message": "Khả năng mở rộng vô hạn với hệ thống bảng điều khiển dựa trên lưới."
   },
-  "tools.unity-smart-sheet.why.item2": {
-    "message": "Tự động Serialize dữ liệu sang ScriptableObject hoặc JSON."
+  "tools.infinite-corrugated-roof.why.item2": {
+    "message": "Profile sóng động sử dụng AnimationCurves."
   },
-  "tools.unity-smart-sheet.why.item3": {
-    "message": "Hỗ trợ làm việc nhóm qua Google Sheets Sync."
+  "tools.infinite-corrugated-roof.why.item3": {
+    "message": "Modifier nâng cao: Biến dạng Spline & Nhiễu thủ tục."
   },
-  "tools.unity-smart-sheet.why.item4": {
-    "message": "Validation dữ liệu ngay khi nhập."
+  "tools.infinite-corrugated-roof.why.item4": {
+    "message": "Hệ thống LOD 3 cấp tích hợp & baking FBX."
   },
-  "tools.unity-smart-sheet.specs.req": {
+  "tools.infinite-corrugated-roof.specs.req": {
     "message": "Yêu cầu Unity 2021.3+"
   },
-  "tools.unity-smart-sheet.specs.size": {
+  "tools.infinite-corrugated-roof.specs.size": {
     "message": "Kích thước: 2.5 MB"
   },
-  "tools.unity-smart-sheet.specs.version": {
+  "tools.infinite-corrugated-roof.specs.version": {
     "message": "Phiên bản hiện tại: v1.2.0"
   },
   "tools.simple-paint.title": {

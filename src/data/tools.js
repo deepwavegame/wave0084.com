@@ -8,36 +8,36 @@ export const TOOL_TYPES = {
 
 const tools = [
   {
-    id: 'unity-smart-sheet',
+    id: 'infinite-corrugated-roof',
     type: TOOL_TYPES.UNITY_PACKAGE,
-    title: 'Unity Smart Sheet',
-    tagline: <Translate id="tools.unity-smart-sheet.tagline">Comprehensive data management solution using Spreadsheet interface.</Translate>,
-    description: <Translate id="tools.unity-smart-sheet.description">Powerful data management within Unity Editor. Import, edit, and sync Google Sheets directly to ScriptableObjects.</Translate>,
-    thumbnail: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80',
+    title: 'Infinite Corrugated Roof',
+    tagline: <Translate id="tools.infinite-corrugated-roof.tagline">High-performance procedural roofing system for Unity.</Translate>,
+    description: <Translate id="tools.infinite-corrugated-roof.description">Generate highly customizable, production-ready corrugated roofs with spline deformation, procedural noise, and multi-LOD support.</Translate>,
+    thumbnail: '/img/products/tools/infinite-corrugated-roof/Dd6Gwv.jpg',
     links: {
-      page: '/tools/unity-smart-sheet',
-      assetStore: 'https://assetstore.unity.com/packages/slug/example',
-      itch: 'https://deepwavegame.itch.io/unity-smart-sheet',
-      docs: '/docs/tools/unity-smart-sheet/intro',
+      page: '/tools/infinite-corrugated-roof',
+      assetStore: 'https://assetstore.unity.com/packages/slug/357650',
+      itch: 'https://deepwave.itch.io/unity-smart-sheet-procedural-corrugated-sheet-fence-builde',
+      docs: '/docs/tools/infinite-corrugated-roof/intro',
     },
     specs: {
-      price: '$24.99',
+      price: '$15.69',
       version: 'v1.2.0',
       size: '2.5 MB',
       requirement: 'Unity 2021.3+',
     },
     features: [
       {
-        title: <Translate id="tools.unity-smart-sheet.f1.t">No Context Switching</Translate>,
-        desc: <Translate id="tools.unity-smart-sheet.f1.d">Edit data without opening Excel or Google Sheets.</Translate>
+        title: <Translate id="tools.infinite-corrugated-roof.f1.t">Spline Deformation</Translate>,
+        desc: <Translate id="tools.infinite-corrugated-roof.f1.d">Bend and shape roofs along complex paths using Unity Splines.</Translate>
       },
       {
-        title: <Translate id="tools.unity-smart-sheet.f2.t">Auto-Serialization</Translate>,
-        desc: <Translate id="tools.unity-smart-sheet.f2.d">Sync directly to ScriptableObjects or JSON.</Translate>
+        title: <Translate id="tools.infinite-corrugated-roof.f2.t">Procedural Noise</Translate>,
+        desc: <Translate id="tools.infinite-corrugated-roof.f2.d">Add realistic surface imperfections and weathering effects.</Translate>
       },
       {
-        title: <Translate id="tools.unity-smart-sheet.f3.t">Team Sync</Translate>,
-        desc: <Translate id="tools.unity-smart-sheet.f3.d">Multi-user support via Google Sheets API.</Translate>
+        title: <Translate id="tools.infinite-corrugated-roof.f3.t">Multi-LOD System</Translate>,
+        desc: <Translate id="tools.infinite-corrugated-roof.f3.d">Optimized for performance with built-in 3-level LOD and FBX baking.</Translate>
       },
     ]
   },

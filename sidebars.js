@@ -2,18 +2,25 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  // Sidebar cho Unity Smart Sheet
-  unitySmartSheetSidebar: [
+  // Sidebar cho Infinite Corrugated Roof
+  infiniteCorrugatedRoofSidebar: [
     {
       type: 'category',
-      label: 'Unity Smart Sheet',
+      label: 'Infinite Corrugated Roof',
       link: {
         type: 'generated-index',
-        title: 'Unity Smart Sheet Documentation',
-        description: 'Hướng dẫn sử dụng toàn diện cho Unity Smart Sheet plugin.',
-        slug: '/unity-smart-sheet',
+        title: 'Infinite Corrugated Roof Documentation',
+        description: 'Hướng dẫn sử dụng toàn diện cho Infinite Corrugated Roof plugin.',
+        slug: '/infinite-corrugated-roof',
       },
-      items: ['tools/unity-smart-sheet/intro'],
+      items: [
+        'tools/infinite-corrugated-roof/intro',
+        'tools/infinite-corrugated-roof/getting-started',
+        'tools/infinite-corrugated-roof/editor-guide',
+        'tools/infinite-corrugated-roof/advanced-features',
+        'tools/infinite-corrugated-roof/technical-reference',
+        'tools/infinite-corrugated-roof/api-reference',
+      ],
     },
   ],
 

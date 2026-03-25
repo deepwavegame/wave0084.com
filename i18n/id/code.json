@@ -122,37 +122,37 @@
   "games.lil-sis.feature3.desc": {
     "message": "Bukan sekadar melarikan diri, Anda perlu mencari tahu dan menyusun kembali ingatan melalui sistem teka-teki berdasarkan fenomena supernatural."
   },
-  "tools.unity-smart-sheet.title": {
-    "message": "Unity Smart Sheet"
+  "tools.infinite-corrugated-roof.title": {
+    "message": "Infinite Corrugated Roof"
   },
-  "tools.unity-smart-sheet.description": {
-    "message": "Manajemen data yang kuat dalam Unity Editor. Impor, edit, dan sinkronkan Google Sheets langsung ke ScriptableObjects."
+  "tools.infinite-corrugated-roof.description": {
+    "message": "Sistem atap prosedural berperforma tinggi untuk Unity. Hasilkan atap bergelombang yang dapat disesuaikan dengan deformasi spline."
   },
-  "tools.unity-smart-sheet.hero.desc": {
-    "message": "Solusi manajemen data komprehensif untuk game menggunakan antarmuka Spreadsheet langsung di Unity Editor."
+  "tools.infinite-corrugated-roof.hero.desc": {
+    "message": "Alat prosedural siap produksi untuk menghasilkan sistem atap bergelombang yang sangat dapat disesuaikan di Unity."
   },
-  "tools.unity-smart-sheet.why.title": {
-    "message": "Mengapa memilih Unity Smart Sheet?"
+  "tools.infinite-corrugated-roof.why.title": {
+    "message": "Mengapa memilih Infinite Corrugated Roof?"
   },
-  "tools.unity-smart-sheet.why.item1": {
-    "message": "Edit data dengan cepat tanpa membuka Excel atau Google Sheets."
+  "tools.infinite-corrugated-roof.why.item1": {
+    "message": "Skalabilitas tanpa batas dengan sistem panel berbasis kisi."
   },
-  "tools.unity-smart-sheet.why.item2": {
-    "message": "Secara otomatis menserialkan data ke ScriptableObject atau JSON."
+  "tools.infinite-corrugated-roof.why.item2": {
+    "message": "Profil gelombang dinamis menggunakan AnimationCurves."
   },
-  "tools.unity-smart-sheet.why.item3": {
-    "message": "Mendukung kerja tim melalui Google Sheets Sync."
+  "tools.infinite-corrugated-roof.why.item3": {
+    "message": "Modifier tingkat lanjut: Spline Deform & Procedural Noise."
   },
-  "tools.unity-smart-sheet.why.item4": {
-    "message": "Validasi data saat dimasukkan."
+  "tools.infinite-corrugated-roof.why.item4": {
+    "message": "Sistem LOD 3 tingkat bawaan & pemanggangan FBX."
   },
-  "tools.unity-smart-sheet.specs.req": {
+  "tools.infinite-corrugated-roof.specs.req": {
     "message": "Membutuhkan Unity 2021.3+"
   },
-  "tools.unity-smart-sheet.specs.size": {
+  "tools.infinite-corrugated-roof.specs.size": {
     "message": "Ukuran: 2.5 MB"
   },
-  "tools.unity-smart-sheet.specs.version": {
+  "tools.infinite-corrugated-roof.specs.version": {
     "message": "Versi Saat Ini: v1.2.0"
   },
   "tools.simple-paint.title": {
