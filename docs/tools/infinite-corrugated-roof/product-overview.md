@@ -1,4 +1,4 @@
-# Overview:
+# Overview
 
 
 ## Summary
@@ -38,4 +38,5 @@ Whether you are building a vast industrial warehouse or a small weathered shed, 
 ### Requirements:
 - Unity 2021.3 LTS or higher.
 - Unity Splines package (optional, for spline-based deformation).
+- Unity FBX Exporter (optional).
 - No external dependencies or DLLs required.
