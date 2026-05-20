@@ -18,7 +18,12 @@
   position: relative;
   z-index: 3;
   max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.align-left .content { align-items: flex-start; }
 
 .vignette {
   position: absolute;
@@ -69,43 +74,27 @@
   text-shadow: 0 0 60px rgba(0, 217, 255, 0.15);
 }
 
-.glitch::before,
 .glitch::after {
   content: attr(data-text);
   position: absolute;
+  left: 2px;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  color: var(--c-text-0);
+  background: var(--c-bg-0);
+  overflow: hidden;
+  text-shadow: -1px 0 var(--c-danger);
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
   pointer-events: none;
 }
 
-.glitch::before {
-  text-shadow: 2px 0 var(--c-danger);
-  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
-  animation: glitch-anim-1 4s infinite linear alternate-reverse;
-}
-
-.glitch::after {
-  text-shadow: -2px 0 var(--c-accent);
-  clip-path: polygon(0 66%, 100% 66%, 100% 100%, 0 100%);
-  animation: glitch-anim-2 5s infinite linear alternate-reverse;
-}
-
-@keyframes glitch-anim-1 {
-  0%, 100% { transform: translate(0); }
-  20% { transform: translate(-1px, 1px); }
-  40% { transform: translate(-2px, -1px); }
-  60% { transform: translate(1px, 2px); }
-  80% { transform: translate(2px, -2px); }
-}
-
-@keyframes glitch-anim-2 {
-  0%, 100% { transform: translate(0); }
-  20% { transform: translate(1px, -1px); }
-  40% { transform: translate(2px, 1px); }
-  60% { transform: translate(-1px, -2px); }
-  80% { transform: translate(-2px, 2px); }
+@keyframes noise-anim {
+  0%   { clip: rect(10px, 9999px, 50px, 0); }
+  20%  { clip: rect(30px, 9999px, 20px, 0); }
+  40%  { clip: rect(60px, 9999px, 90px, 0); }
+  60%  { clip: rect(10px, 9999px, 40px, 0); }
+  80%  { clip: rect(80px, 9999px, 10px, 0); }
+  100% { clip: rect(40px, 9999px, 70px, 0); }
 }
 
 .subtitle {
