@@ -83,7 +83,7 @@ const config = {
           { to: '/games', label: 'Games', position: 'left' },
           { to: '/tools', label: 'Tools', position: 'left' },
           { to: '/assets', label: 'Assets', position: 'left' },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/news', label: 'Blog', position: 'left' },
           {
             type: 'localeDropdown',
             position: 'right',
@@ -111,7 +111,7 @@ const config = {
             title: 'Resources',
             items: [
               { label: 'Documentation', to: '/docs/tools/infinite-corrugated-roof/intro' },
-              { label: 'Dev Blog', to: '/blog' },
+              { label: 'Dev Blog', to: '/news' },
               { label: 'Support', href: 'mailto:support@wave0084.com' },
             ],
           },

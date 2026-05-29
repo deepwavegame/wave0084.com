@@ -1,227 +1,106 @@
 {
-  "homepage.tagline": {
-    "message": "インディーホラースタジオ ＆ テクニカルソリューション"
-  },
-  "homepage.cta.latest_game": {
-    "message": "最新プロジェクト"
-  },
-  "homepage.cta.explore_tools": {
-    "message": "ツールを探索"
-  },
-  "homepage.sections.about.title.part1": {
-    "message": "私たちは "
-  },
-  "homepage.sections.about.description": {
-    "message": "心理的ホラーと高性能な Unity ツールを専門とするテクニカルインディースタジオです。デジタルな恐怖とクリエイティブなワークフロー効率の限界を押し広げています。"
-  },
-  "homepage.sections.featured.title.part1": {
-    "message": "コア "
-  },
-  "homepage.features.games.title": {
-    "message": "ゲーム"
-  },
-  "homepage.features.games.desc": {
-    "message": "HDRP で構築された、深く雰囲気のあるホラー体験。"
-  },
-  "homepage.features.games.cta": {
-    "message": "今すぐプレイ"
-  },
-  "homepage.features.tools.title": {
-    "message": "ツール"
-  },
-  "homepage.features.tools.desc": {
-    "message": "自社の制作サイクルで使用されているプロフェッショナルな Unity パッケージ。"
-  },
-  "homepage.features.tools.cta": {
-    "message": "仕様を見る"
-  },
-  "homepage.features.assets.title": {
-    "message": "アセット"
-  },
-  "homepage.features.assets.desc": {
-    "message": "プロジェクト向けの高品質な 3D モデルと環境キット。"
-  },
-  "homepage.features.assets.cta": {
-    "message": "アセットを入手"
-  },
-  "games.view_details": {
-    "message": "技術仕様"
-  },
-  "tools.view_specs": {
-    "message": "技術仕様"
-  },
-  "tools.view_docs": {
-    "message": "ドキュメント"
-  },
-  "games.page.title.part1": {
-    "message": "プロジェクト"
-  },
-  "games.page.title.part2": {
-    "message": "リポジトリ"
-  },
-  "tools.page.title.part1": {
-    "message": "テクニカル"
-  },
-  "tools.page.title.part2": {
-    "message": "システム"
-  },
-  "assets.page.title.part1": {
-    "message": "アセット"
-  },
-  "assets.page.title.part2": {
-    "message": "レジストリ"
-  },
-  "assets.page.description": {
-    "message": "現代のレンダリングパイプライン向けに最適化されたプロダクション・グレードのアセット。高精度なモデル、PBR テクスチャ、空間オーディオキット。"
-  },
-  "games.lil-sis.title": {
-    "message": "Lil Sis - 私の妹"
-  },
-  "games.lil-sis.subtitle": {
-    "message": "私の妹"
-  },
-  "games.lil-sis.description": {
-    "message": "心理的一人称ホラー。行方不明の妹を探しながら、壊れた家の歪んだ記憶を探索します。極限の没入感を実現するために Unity HDRP で構築されています。"
-  },
-  "games.common.watch_trailer": {
-    "message": "トレーラーを見る"
-  },
-  "games.common.story_title": {
-    "message": "ストーリー"
-  },
-  "games.common.features_title": {
-    "message": "主な特徴"
-  },
-  "games.common.trailer_title": {
-    "message": "トレーラー"
-  },
-  "games.view_devlogs": {
-    "message": "開発ログを見る"
-  },
-  "games.lil-sis.story.p1": {
-    "message": "あなたは長年家を離れていた兄としてプレイします。ある日、亡き母からと思われる奇妙な手紙が届き、妹が助けを必要としていると告げられます。"
-  },
-  "games.lil-sis.story.p2": {
-    "message": "不吉な予感を無視して、霧深い森の奥深くにある木造の家に戻ります。人影もなく、生命の音もなく、ただ血のメッセージと歪んだ記憶がゆっくりとあなたを飲み込んでいきます。"
-  },
-  "games.lil-sis.story.quote": {
-    "message": "「私を置いていかないって約束したのに……」"
-  },
-  "games.lil-sis.feature1.title": {
-    "message": "心霊的なグラフィック"
-  },
-  "games.lil-sis.feature1.desc": {
-    "message": "Unity HDRP の高度なライティング技術を使用し、息が詰まるほどリアルで暗い雰囲気をもたらします。"
-  },
-  "games.lil-sis.feature2.title": {
-    "message": "空間オーディオ"
-  },
-  "games.lil-sis.feature2.desc": {
-    "message": "3D 空間オーディオシステムにより、あなたを追い詰める存在の足音や息遣いをはっきりと聞くことができます。"
-  },
-  "games.lil-sis.feature3.title": {
-    "message": "心理パズル"
-  },
-  "games.lil-sis.feature3.desc": {
-    "message": "ただ逃げるだけでなく、超常現象に基づいたパズルシステムを通じて、記憶を解き明かし、つなぎ合わせる必要があります。"
-  },
-  "tools.infinite-corrugated-roof.title": {
-    "message": "Infinite Corrugated Roof"
-  },
-  "tools.infinite-corrugated-roof.description": {
-    "message": "Unity向け高性能プロシージャル屋根システム。スプライン変形によるカスタマイズ可能な波板屋根を生成。"
-  },
-  "tools.infinite-corrugated-roof.hero.desc": {
-    "message": "Unityで高度にカスタマイズ可能な波板屋根システムを生成するための、プロダクション対応のプロシージャルツール。"
-  },
-  "tools.infinite-corrugated-roof.why.title": {
-    "message": "Infinite Corrugated Roof を選ぶ理由"
-  },
-  "tools.infinite-corrugated-roof.why.item1": {
-    "message": "グリッドベースのパネルシステムによる無限の拡張性。"
-  },
-  "tools.infinite-corrugated-roof.why.item2": {
-    "message": "AnimationCurvesを使用した動的な波形プロファイル。"
-  },
-  "tools.infinite-corrugated-roof.why.item3": {
-    "message": "高度なモディファイア：スプライン変形とプロシージャルノイズ。"
-  },
-  "tools.infinite-corrugated-roof.why.item4": {
-    "message": "3レベルのLODシステムとFBXベイク機能を内蔵。"
-  },
-  "tools.infinite-corrugated-roof.specs.req": {
-    "message": "Unity 2021.3+ が必要"
-  },
-  "tools.infinite-corrugated-roof.specs.size": {
-    "message": "サイズ: 2.5 MB"
-  },
-  "tools.infinite-corrugated-roof.specs.version": {
-    "message": "現在のバージョン: v1.2.0"
-  },
-  "tools.simple-paint.title": {
-    "message": "Simple Paint"
-  },
-  "tools.simple-paint.description": {
-    "message": "Unity プロジェクト向けの軽量な 2D ペイント システム。プロトタイピングやゲーム内の描画メカニズムに最適です。"
-  },
-  "tools.simple-paint.feature.title": {
-    "message": "テクスチャに直接ペイント"
-  },
-  "tools.simple-paint.feature.desc": {
-    "message": "Simple Paint はシンプルな API を提供し、描画/ペイント機能をゲームに統合できます。壁への落書き、紙への署名、血痕の作成など、Simple Paint はスムーズに処理します。"
-  },
-  "tools.simple-paint.feature1.title": {
-    "message": "シェーダー最適化"
-  },
-  "tools.simple-paint.feature1.desc": {
-    "message": "描画に GPU を使用し、モバイルでも FPS が低下しないようにします。"
-  },
-  "tools.simple-paint.feature2.title": {
-    "message": "多様なブラシタイプ"
-  },
-  "tools.simple-paint.feature2.desc": {
-    "message": "テクスチャブラシをサポートし、リアルな描画エフェクトを作成できます。"
-  },
-  "tools.simple-paint.cta.desc": {
-    "message": "プロフェッショナルなペイントシステムを数分で Unity プロジェクトに統合できます。"
-  },
-  "tools.simple-paint.req1": {
-    "message": "Unity 2020.3 LTS 以上。"
-  },
-  "tools.simple-paint.req2": {
-    "message": "Built-in、URP、HDRP をサポート。"
-  },
-  "tools.simple-paint.req3": {
-    "message": "Windows、Mac、iOS、Android で動作。"
-  },
-  "tools.common.read_docs": {
-    "message": "ドキュメントを読む"
-  },
-  "tools.common.pricing_desc": {
-    "message": "一回払い。生涯アップデートサポート。"
-  },
-  "tools.common.buy_asset_store": {
-    "message": "ASSET STORE で購入"
-  },
-  "tools.common.buy_itch": {
-    "message": "ITCH.IO で購入"
-  },
-  "tools.common.get_started": {
-    "message": "今すぐ始める"
-  },
-  "tools.common.system_req": {
-    "message": "システム要件"
-  },
-  "assets.horror-pack.title": {
-    "message": "ホラー環境パック Vol. 1"
-  },
-  "assets.horror-pack.description": {
-    "message": "放棄された工業施設向けのモジュール式アセット。Unity および Unreal Engine 用の高品質な PBR テクスチャ。"
-  },
-  "assets.cta.acquire": {
-    "message": "入手する"
-  },
-  "assets.common.price": {
-    "message": "価格"
-  }
+  "homepage.tagline": { "message": "インディーホラースタジオ ＆ テクニカルソリューション" },
+  "homepage.cta.latest_game": { "message": "最新プロジェクト" },
+  "homepage.cta.explore_tools": { "message": "ツールを見る" },
+  "homepage.sections.about.title.part1": { "message": "私たちは " },
+  "homepage.sections.about.description": { "message": "心理ホラーと高性能 Unity ツールに特化したテクニカル系インディースタジオ。デジタルの恐怖と制作ワークフロー効率の限界を押し広げます。" },
+  "homepage.sections.featured.title.part1": { "message": "コア " },
+  "homepage.features.games.title": { "message": "ゲーム" },
+  "homepage.features.games.desc": { "message": "HDRP で構築された深く濃密なホラー体験。" },
+  "homepage.features.games.cta": { "message": "プレイする" },
+  "homepage.features.tools.title": { "message": "ツール" },
+  "homepage.features.tools.desc": { "message": "自社の制作サイクルで使用しているプロフェッショナル向け Unity パッケージ。" },
+  "homepage.features.tools.cta": { "message": "仕様を見る" },
+  "homepage.features.assets.title": { "message": "アセット" },
+  "homepage.features.assets.desc": { "message": "プロジェクト向けの高品質な 3D モデルと環境キット。" },
+  "homepage.features.assets.cta": { "message": "アセットを入手" },
+  "games.view_details": { "message": "仕様" },
+  "games.view_devlogs": { "message": "開発ログを見る" },
+  "tools.view_specs": { "message": "仕様" },
+  "tools.view_docs": { "message": "ドキュメント" },
+  "tools.view_devlogs": { "message": "開発ログ" },
+  "games.page.title.part1": { "message": "プロジェクト" },
+  "games.page.title.part2": { "message": "アーカイブ" },
+  "tools.page.title.part1": { "message": "テクニカル" },
+  "tools.page.title.part2": { "message": "システム" },
+  "assets.page.title.part1": { "message": "アセット" },
+  "assets.page.title.part2": { "message": "レジストリ" },
+  "assets.page.description": { "message": "現代のレンダリングパイプライン向けに最適化されたプロダクション品質のアセット。高精細モデル、PBR テクスチャ、空間オーディオキット。" },
+  "games.lil-sis.title": { "message": "Lil Sis" },
+  "games.lil-sis.subtitle": { "message": "LIL SIS" },
+  "games.lil-sis.description": { "message": "心理系一人称ホラー。行方不明の妹を探しながら、壊れた家族の歪んだ記憶を辿る。Unity HDRP で構築された極限の没入感。" },
+  "games.common.watch_trailer": { "message": "トレーラーを見る" },
+  "games.common.story_title": { "message": "ストーリー" },
+  "games.common.features_title": { "message": "主な特徴" },
+  "games.common.trailer_title": { "message": "トレーラー" },
+  "games.lil-sis.story.p1": { "message": "あなたは長年家を離れていた兄を演じます。ある日、亡き母から届いたかのような奇妙な手紙を受け取り、妹が助けを求めていると知らされます。" },
+  "games.lil-sis.story.p2": { "message": "嫌な予感を振り切り、霧深い森の奥にある木造の家へと戻る。誰もいない、生きている音もない。ただ血で書かれたメッセージと歪んだ記憶が、あなたをゆっくりと飲み込んでいく。" },
+  "games.lil-sis.story.quote": { "message": "「絶対に置いていかないって、約束したのに……」" },
+  "games.lil-sis.feature1.title": { "message": "息を呑む映像" },
+  "games.lil-sis.feature1.desc": { "message": "Unity HDRP の先進的なライティング技術で、息が詰まるほどリアルで暗鬱な雰囲気を実現。" },
+  "games.lil-sis.feature2.title": { "message": "空間オーディオ" },
+  "games.lil-sis.feature2.desc": { "message": "3D 空間オーディオにより、追跡者の足音や息遣いまではっきりと聞き取れます。" },
+  "games.lil-sis.feature3.title": { "message": "心理パズル" },
+  "games.lil-sis.feature3.desc": { "message": "ただ逃げるだけでなく、超常現象に基づくパズルシステムで記憶のかけらを集めていきます。" },
+  "tools.infinite-corrugated-roof.title": { "message": "Infinite Corrugated Roof" },
+  "tools.infinite-corrugated-roof.description": { "message": "Unity 向け高性能プロシージャル波板屋根システム。スプライン変形を用いてカスタマイズ可能な屋根を生成します。" },
+  "tools.infinite-corrugated-roof.hero.desc": { "message": "Unity 上で高度にカスタマイズ可能な波板屋根システムを生成するための、プロダクション対応プロシージャルツール。" },
+  "tools.infinite-corrugated-roof.why.title": { "message": "なぜ Infinite Corrugated Roof を選ぶのか?" },
+  "tools.infinite-corrugated-roof.why.item1": { "message": "グリッドベースのパネルシステムによる無限のスケーラビリティ。" },
+  "tools.infinite-corrugated-roof.why.item2": { "message": "AnimationCurves による動的な波形プロファイル。" },
+  "tools.infinite-corrugated-roof.why.item3": { "message": "高度なモディファイア:スプライン変形&プロシージャルノイズ。" },
+  "tools.infinite-corrugated-roof.why.item4": { "message": "3 段階の LOD システムと FBX ベイクを内蔵。" },
+  "tools.infinite-corrugated-roof.specs.req": { "message": "Unity 2021.3+ が必要" },
+  "tools.infinite-corrugated-roof.specs.size": { "message": "サイズ:2.5 MB" },
+  "tools.infinite-corrugated-roof.specs.version": { "message": "現行バージョン:v1.2.0" },
+  "tools.simple-paint.title": { "message": "Simple Paint" },
+  "tools.simple-paint.description": { "message": "Unity プロジェクト向けの軽量 2D ペイントシステム。プロトタイピングやゲーム内描画機構に最適。" },
+  "tools.simple-paint.feature.title": { "message": "テクスチャに直接描画" },
+  "tools.simple-paint.feature.desc": { "message": "Simple Paint はシンプルな API を提供し、描画機能をゲームに組み込めます。壁への落書き、サイン、血痕など、Simple Paint がスムーズに処理します。" },
+  "tools.simple-paint.feature1.title": { "message": "シェーダー最適化" },
+  "tools.simple-paint.feature1.desc": { "message": "GPU で描画するため、モバイルでも FPS が落ちません。" },
+  "tools.simple-paint.feature2.title": { "message": "多彩なブラシ" },
+  "tools.simple-paint.feature2.desc": { "message": "テクスチャブラシに対応し、リアルな描画表現が可能。" },
+  "tools.simple-paint.cta.desc": { "message": "数分でプロ品質のペイントシステムを Unity プロジェクトに組み込めます。" },
+  "tools.simple-paint.req1": { "message": "Unity 2020.3 LTS 以上。" },
+  "tools.simple-paint.req2": { "message": "Built-in、URP、HDRP に対応。" },
+  "tools.simple-paint.req3": { "message": "Windows、Mac、iOS、Android で動作。" },
+  "tools.common.read_docs": { "message": "ドキュメントを読む" },
+  "tools.common.pricing_desc": { "message": "一度の購入で生涯アップデートをサポート。" },
+  "tools.common.buy_asset_store": { "message": "ASSET STORE で購入" },
+  "tools.common.buy_itch": { "message": "ITCH.IO で購入" },
+  "tools.common.buy_blender_market": { "message": "BLENDER MARKET で購入" },
+  "tools.common.get_started": { "message": "はじめる" },
+  "tools.common.system_req": { "message": "システム要件" },
+  "assets.horror-pack.title": { "message": "Horror Environment Vol. 1" },
+  "assets.horror-pack.description": { "message": "廃工業地帯向けのモジュール型アセット。Unity と Unreal Engine 向けの高品質 PBR テクスチャ。" },
+  "assets.cta.acquire": { "message": "入手する" },
+  "assets.common.price": { "message": "価格" },
+  "blog.page.title.part1": { "message": "フィールド" },
+  "blog.page.title.part2": { "message": "レポート" },
+  "blog.page.subtitle": { "message": "技術的解体、ホラー実体のフィールド分析、スタジオの開発ログ。" },
+  "blog.post1.title": { "message": "血肉のための高度なバーテックスディスプレイスメント" },
+  "blog.post1.desc": { "message": "Shader Graph と URP で動的でやわらかな表面を作り、内臓まで響くホラー演出を実現。" },
+  "blog.post2.title": { "message": "URP のボリュメトリックフォグ:徹底解析" },
+  "blog.post2.desc": { "message": "パフォーマンスを犠牲にせず、完璧な霧のホラー雰囲気のために大気散乱を最適化。" },
+  "blog.post3.title": { "message": "バイノーラルオーディオ:真の恐怖の秘密" },
+  "blog.post3.desc": { "message": "Unity に HRTF 空間オーディオを実装し、プレイヤーに現実で振り向かせる方法。" },
+  "blog.post4.title": { "message": "グリッチ表現のためのカスタム Scriptable Render Features" },
+  "blog.post4.desc": { "message": "URP レンダラーでプロダクション品質のデジタル腐敗と正気表現を作る。" },
+  "blog.post5.title": { "message": "大規模ホラー実体のための Compute Shader" },
+  "blog.post5.desc": { "message": "GPU バウンドのロジックで数千体の群れる生物をシミュレート。" },
+  "blog.post6.title": { "message": "なぜ『P.T.』は今もレベルデザイナーを悩ませるのか" },
+  "blog.post6.desc": { "message": "ループする廊下の技術的解体と、心理的ループ疲労を支配した手法。" },
+  "blog.post7.title": { "message": "バイオハザードのカメラ:固定 vs. オーバーザショルダー" },
+  "blog.post7.desc": { "message": "ホラー史におけるカメラ視点が恐怖とプレイヤー主導性をどう左右するかを分析。" },
+  "blog.post8.title": { "message": "Subnautica:未知の深さの恐怖" },
+  "blog.post8.desc": { "message": "深海恐怖症とサウンドデザインが、非ホラータイトルでホラーの主要動力源となる仕組み。" },
+  "blog.post9.title": { "message": "Alien: Isolation:行動型 AI の解体" },
+  "blog.post9.desc": { "message": "Creative Assembly がゼノモーフの非スクリプト恐怖のために構築したツーブレイン・システム。" },
+  "blog.post10.title": { "message": "サイレントヒルの音:山岡晃のインダストリアル・ドレッド" },
+  "blog.post10.desc": { "message": "ホワイトノイズと工業サンプルで不快感を作り出す手法を解体する。" },
+  "blog.post11.title": { "message": "Unity 6 への移行:Wave0084 戦略" },
+  "blog.post11.desc": { "message": "『Lil Sis』の制作パイプラインを最新の Unity エンジンへ移行する理由。" },
+  "blog.post12.title": { "message": "インディー予算でのモーションキャプチャ" },
+  "blog.post12.desc": { "message": "Rokoko と AI 動画ツールで、リアルなホラーアニメーションを実現。" }
 }

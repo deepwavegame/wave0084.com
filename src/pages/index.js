@@ -3,10 +3,10 @@ import Layout from '@theme/Layout';
 import { Button, Hero, Section, SectionTitle, Card, StatList } from '@site/src/components/ui';
 import studio from '@site/src/data/studio';
 
-const DEPTHS = ['-2 100', '-6 400', '-10 902'];
+const SIGILS = ['SIG · I', 'SIG · II', 'SIG · III'];
 
 function ContactTile({ pillar }) {
-  const depth = DEPTHS[pillar.index - 1] || '-8 400';
+  const sigil = SIGILS[pillar.index - 1] || `SIG · ${pillar.index}`;
   return (
     <div className="col col--4" style={{ marginBottom: '1.5rem' }}>
       <Card className="contact-card" hoverable>
@@ -17,34 +17,37 @@ function ContactTile({ pillar }) {
           marginBottom: '1.4rem',
           fontFamily: 'var(--f-mono)',
           fontSize: '0.66rem',
-          letterSpacing: '2px',
+          letterSpacing: '3px',
           color: 'var(--c-text-3)',
         }}>
           <span style={{
-            width: '8px', height: '8px', borderRadius: '50%',
-            background: 'var(--c-accent)', boxShadow: '0 0 10px var(--c-accent)',
-          }} />
-          <span>CONTACT_{String(pillar.index).padStart(2, '0')}</span>
+            color: 'var(--c-accent-wet)', textShadow: '0 0 8px var(--c-accent-glow)',
+            fontFamily: 'serif', fontSize: '1rem', lineHeight: 1,
+          }}>&#10013;</span>
+          <span>OFFERING_{String(pillar.index).padStart(2, '0')}</span>
           <span style={{ flexGrow: 1, height: 1, background: 'linear-gradient(90deg, var(--c-border-2), transparent)' }} />
-          <span style={{ color: 'var(--c-accent)' }}>{depth}m</span>
+          <span style={{ color: 'var(--c-accent-wet)', letterSpacing: '2px' }}>{sigil}</span>
         </div>
 
         <h3 style={{
           fontFamily: 'var(--f-display)',
           color: 'var(--c-text-0)',
           textTransform: 'uppercase',
-          letterSpacing: '2px',
-          fontSize: '1.45rem',
-          marginBottom: '0.85rem',
-          textShadow: '0 0 18px var(--c-accent-glow)',
+          letterSpacing: '4px',
+          fontSize: '1.5rem',
+          marginBottom: '0.9rem',
+          textShadow: '0 0 1px rgba(209,11,26,0.4), 0 0 18px var(--c-accent-glow)',
         }}>
           {pillar.title}
         </h3>
-        <p style={{ color: 'var(--c-text-2)', minHeight: '72px', lineHeight: 1.75, fontSize: '0.9rem' }}>
+        <p style={{
+          color: 'var(--c-text-1)', minHeight: '72px', lineHeight: 1.75,
+          fontSize: '1rem', fontFamily: 'var(--f-sans)', fontStyle: 'italic',
+        }}>
           {pillar.description}
         </p>
-        <div style={{ marginTop: '1.5rem' }}>
-          <Button to={pillar.to} variant="outline" block size="md" icon={<span aria-hidden>&#9660;</span>}>
+        <div style={{ marginTop: '1.6rem' }}>
+          <Button to={pillar.to} variant="outline" block size="md" icon={<span aria-hidden>&#10013;</span>}>
             {pillar.cta}
           </Button>
         </div>
@@ -55,7 +58,7 @@ function ContactTile({ pillar }) {
 
 export default function Home() {
   return (
-    <Layout title="Home" description="WAVE0084 Studio — Indie Horror Game & Unity Tools">
+    <Layout title="Home" description="WAVE0084 // RELIQUARY — Indie Horror Studio & Unity Tools">
       <Hero
         title={studio.hero.title}
         subtitle={studio.hero.subtitle}
@@ -82,34 +85,37 @@ export default function Home() {
           <div style={{
             fontFamily: 'var(--f-mono)',
             fontSize: '0.66rem',
-            letterSpacing: '3px',
+            letterSpacing: '4px',
             color: 'var(--c-text-3)',
             textAlign: 'center',
-            marginBottom: '1.2rem',
+            marginBottom: '1.4rem',
           }}>
-            &#9656; INCOMING TRANSMISSION &mdash; SIGNAL LOCK 100%
+            &#10013; ORATIO PRIMA &mdash; FROM THE WORKSHOP
           </div>
           <p style={{
-            textAlign: 'center',
-            fontSize: '1.12rem',
+            textAlign: 'left',
+            fontSize: '1.18rem',
             lineHeight: 1.9,
-            color: 'var(--c-text-1)',
+            color: 'var(--c-text-0)',
             margin: '0 auto 3rem',
             position: 'relative',
-            paddingLeft: '1.5rem',
+            paddingLeft: '1.8rem',
             borderLeft: '2px solid var(--c-accent)',
+            fontFamily: 'var(--f-sans)',
+            fontStyle: 'italic',
           }}>
             {studio.about.body}
           </p>
         </div>
 
         <div style={{ maxWidth: '720px', margin: '0 auto' }}>
-          <Card bordered hoverable={false} style={{ background: 'rgba(8,24,33,0.5)' }}>
+          <Card bordered hoverable={false} style={{ background: 'rgba(10,8,7,0.7)' }}>
             <div style={{
-              fontFamily: 'var(--f-mono)', fontSize: '0.6rem', letterSpacing: '3px',
-              color: 'var(--c-text-3)', marginBottom: '0.5rem', textTransform: 'uppercase',
+              fontFamily: 'var(--f-mono)', fontSize: '0.62rem', letterSpacing: '4px',
+              color: 'var(--c-accent-wet)', marginBottom: '0.7rem', textTransform: 'uppercase',
+              textShadow: '0 0 6px var(--c-accent-glow)',
             }}>
-              // VESSEL TELEMETRY
+              &#10013; LEDGER OF THE WORKSHOP
             </div>
             <StatList items={studio.stats} />
           </Card>
@@ -121,10 +127,10 @@ export default function Home() {
           {studio.pillars.title}
         </SectionTitle>
         <div style={{
-          textAlign: 'center', fontFamily: 'var(--f-mono)', fontSize: '0.68rem',
-          letterSpacing: '3px', color: 'var(--c-text-3)', margin: '-2rem 0 2.5rem',
+          textAlign: 'center', fontFamily: 'var(--f-mono)', fontSize: '0.7rem',
+          letterSpacing: '4px', color: 'var(--c-text-3)', margin: '-2rem 0 2.8rem',
         }}>
-          &#9656; 03 CONTACTS DETECTED ON SONAR &mdash; SELECT TO DESCEND
+          &#10013; THREE OFFERINGS LAID UPON THE ALTAR &mdash; CHOOSE ONE
         </div>
         <div className="row">
           {studio.pillars.items.map((p) => (

@@ -3,62 +3,63 @@ import Translate from '@docusaurus/Translate';
 
 const studio = {
   name: 'WAVE0084',
-  fullName: 'WAVE0084 STUDIO',
-  tagline: <Translate id="homepage.tagline">Indie Horror Studio — Technical Solutions for Unreal Fear</Translate>,
-  kicker: 'EST. 2024 · INDEPENDENT',
+  fullName: 'WAVE0084 // RELIQUARY',
+  tagline: <Translate id="homepage.tagline">A Reliquary of Cursed Code &mdash; Indie Horror Workshop</Translate>,
+  kicker: 'EST. MMXXIV · ORDO INDEPENDENS',
   hero: {
     title: 'WAVE0084',
-    subtitle: <Translate id="homepage.tagline">Indie Horror Studio — Technical Solutions for Unreal Fear</Translate>,
-    kicker: 'TRANSMISSION_ESTABLISHED',
-    backgroundImage: 'https://images.unsplash.com/photo-1505634467193-703328080f5d?auto=format&fit=crop&w=1920&q=80',
+    subtitle: <Translate id="homepage.tagline">A reliquary of cursed code. We carve fear into engines and machine-saints from dead frequencies.</Translate>,
+    kicker: 'IN NOMINE — VIGIL OPEN',
+    backgroundImage: null,
   },
   about: {
-    kicker: 'IDENTIFICATION',
-    title: <Translate id="homepage.sections.about.title.part1">DEEP </Translate>,
-    accent: <Translate id="homepage.sections.about.title.part2">SIGNAL</Translate>,
+    kicker: 'CONFITEOR',
+    title: <Translate id="homepage.sections.about.title.part1">IRON </Translate>,
+    accent: <Translate id="homepage.sections.about.title.part2">SAINT</Translate>,
     body: (
       <Translate id="homepage.sections.about.description">
-        A technical indie studio specializing in psychological horror and high-performance Unity tools.
-        We push the boundaries of digital fear and creative workflow efficiency.
+        A small workshop of one. We build psychological horror on Unity HDRP and forge
+        tools that other rituals can use. Every release is a relic: bone, iron, and code,
+        wrapped in cloth and set on the altar.
       </Translate>
     ),
   },
   pillars: {
-    kicker: 'CORE_DIVISIONS',
-    title: 'CORE',
-    accent: 'DYNAMICS',
+    kicker: 'TRIPTYCH',
+    title: 'THREE',
+    accent: 'OFFERINGS',
     items: [
       {
         index: 1,
         title: <Translate id="homepage.features.games.title">Games</Translate>,
-        description: <Translate id="homepage.features.games.desc">Deep, atmospheric horror experiences built on HDRP.</Translate>,
-        cta: <Translate id="homepage.features.games.cta">Play Now</Translate>,
+        description: <Translate id="homepage.features.games.desc">Slow, claustrophobic horror. HDRP-rendered ritual chambers.</Translate>,
+        cta: <Translate id="homepage.features.games.cta">Enter the Chamber</Translate>,
         to: '/games',
       },
       {
         index: 2,
         title: <Translate id="homepage.features.tools.title">Tools</Translate>,
-        description: <Translate id="homepage.features.tools.desc">Professional Unity packages used in our own production cycle.</Translate>,
-        cta: <Translate id="homepage.features.tools.cta">View Specs</Translate>,
+        description: <Translate id="homepage.features.tools.desc">Unity packages forged in production. Sharp, single-purpose, no oil.</Translate>,
+        cta: <Translate id="homepage.features.tools.cta">Take the Knife</Translate>,
         to: '/tools',
       },
       {
         index: 3,
         title: <Translate id="homepage.features.assets.title">Assets</Translate>,
-        description: <Translate id="homepage.features.assets.desc">High-quality 3D models and environmental kits for your projects.</Translate>,
-        cta: <Translate id="homepage.features.assets.cta">Get Assets</Translate>,
+        description: <Translate id="homepage.features.assets.desc">3D relics and environmental bone for your own altarpieces.</Translate>,
+        cta: <Translate id="homepage.features.assets.cta">Gather Relics</Translate>,
         to: '/assets',
       },
     ],
   },
   stats: [
-    { label: 'PROJECTS', value: '02' },
-    { label: 'TOOLS_SHIPPED', value: '03' },
-    { label: 'ENGINES', value: 'UNITY · BLENDER' },
-    { label: 'STATUS', value: 'OPERATIONAL' },
+    { label: 'RELICS', value: '02' },
+    { label: 'INSTRUMENTS', value: '03' },
+    { label: 'ENGINES', value: 'UNITY † BLENDER' },
+    { label: 'STATUS', value: 'CONSECRATED' },
   ],
-  primaryCta: { to: '/games/lil-sis', label: <Translate id="homepage.cta.latest_game">LATEST PROJECT</Translate> },
-  secondaryCta: { to: '/tools', label: <Translate id="homepage.cta.explore_tools">EXPLORE TOOLS</Translate> },
+  primaryCta: { to: '/games/lil-sis', label: <Translate id="homepage.cta.latest_game">LATEST RELIC</Translate> },
+  secondaryCta: { to: '/tools', label: <Translate id="homepage.cta.explore_tools">THE INSTRUMENTS</Translate> },
 };
 
 export default studio;

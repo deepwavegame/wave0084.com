@@ -1,227 +1,106 @@
 {
-  "homepage.tagline": {
-    "message": "独立恐怖工作室 & 技术解决方案"
-  },
-  "homepage.cta.latest_game": {
-    "message": "最新项目"
-  },
-  "homepage.cta.explore_tools": {
-    "message": "探索工具"
-  },
-  "homepage.sections.about.title.part1": {
-    "message": "我们是 "
-  },
-  "homepage.sections.about.description": {
-    "message": "一家专注于心理恐怖和高性能 Unity 工具的技术独立工作室。我们不断突破数字恐惧和创意工作流效率的界限。"
-  },
-  "homepage.sections.featured.title.part1": {
-    "message": "核心 "
-  },
-  "homepage.features.games.title": {
-    "message": "游戏"
-  },
-  "homepage.features.games.desc": {
-    "message": "基于 HDRP 构建的深度、大气恐怖体验。"
-  },
-  "homepage.features.games.cta": {
-    "message": "立即游玩"
-  },
-  "homepage.features.tools.title": {
-    "message": "工具"
-  },
-  "homepage.features.tools.desc": {
-    "message": "在我们自己的生产周期中使用的专业 Unity 软件包。"
-  },
-  "homepage.features.tools.cta": {
-    "message": "查看规格"
-  },
-  "homepage.features.assets.title": {
-    "message": "资源"
-  },
-  "homepage.features.assets.desc": {
-    "message": "为您项目提供的高质量 3D 模型和环境套件。"
-  },
-  "homepage.features.assets.cta": {
-    "message": "获取资源"
-  },
-  "games.view_details": {
-    "message": "技术规格"
-  },
-  "tools.view_specs": {
-    "message": "技术规格"
-  },
-  "tools.view_docs": {
-    "message": "开发文档"
-  },
-  "games.page.title.part1": {
-    "message": "项目"
-  },
-  "games.page.title.part2": {
-    "message": "库"
-  },
-  "tools.page.title.part1": {
-    "message": "技术"
-  },
-  "tools.page.title.part2": {
-    "message": "系统"
-  },
-  "assets.page.title.part1": {
-    "message": "资产"
-  },
-  "assets.page.title.part2": {
-    "message": "登记簿"
-  },
-  "assets.page.description": {
-    "message": "针对现代渲染管线优化的生产级资产。高保真模型、PBR 贴图和空间音频套件。"
-  },
-  "games.lil-sis.title": {
-    "message": "Lil Sis - 我的妹妹"
-  },
-  "games.lil-sis.subtitle": {
-    "message": "我的妹妹"
-  },
-  "games.lil-sis.description": {
-    "message": "心理第一人称恐怖。探索破碎家庭的扭曲记忆，寻找失踪的妹妹。基于 Unity HDRP 构建，极具沉浸感。"
-  },
-  "games.common.watch_trailer": {
-    "message": "观看预告片"
-  },
-  "games.common.story_title": {
-    "message": "故事"
-  },
-  "games.common.features_title": {
-    "message": "主要特点"
-  },
-  "games.common.trailer_title": {
-    "message": "预告片"
-  },
-  "games.view_devlogs": {
-    "message": "查看开发日志"
-  },
-  "games.lil-sis.story.p1": {
-    "message": "你扮演一个离家多年的哥哥。一天，你收到一封据说是你已故母亲寄来的奇怪信件，说你的妹妹需要帮助。"
-  },
-  "games.lil-sis.story.p2": {
-    "message": "无视你不祥的预感，你回到了迷雾森林深处的木屋。空无一人，没有生命的声音，只有血字信息和扭曲的记忆在慢慢吞噬你。"
-  },
-  "games.lil-sis.story.quote": {
-    "message": "“你答应过永远不离开我的……”"
-  },
-  "games.lil-sis.feature1.title": {
-    "message": "令人窒息的画面"
-  },
-  "games.lil-sis.feature1.desc": {
-    "message": "在 Unity HDRP 上使用先进的照明技术，带来真实而黑暗的氛围，令人感到窒息。"
-  },
-  "games.lil-sis.feature2.title": {
-    "message": "空间音频"
-  },
-  "games.lil-sis.feature2.desc": {
-    "message": "3D 空间音频系统让你能清楚地听到追捕你的力量的每一个脚步声或呼吸声。"
-  },
-  "games.lil-sis.feature3.title": {
-    "message": "心理谜题"
-  },
-  "games.lil-sis.feature3.desc": {
-    "message": "不仅是逃跑，你还需要通过基于超自然现象的谜题系统找出并拼凑记忆。"
-  },
-  "tools.infinite-corrugated-roof.title": {
-    "message": "Infinite Corrugated Roof"
-  },
-  "tools.infinite-corrugated-roof.description": {
-    "message": "高性能 Unity 程序化屋顶系统。通过样条线变形生成可自定义的波纹屋顶。"
-  },
-  "tools.infinite-corrugated-roof.hero.desc": {
-    "message": "生产级程序化工具，用于在 Unity 中生成高度可自定义的波纹屋顶系统。"
-  },
-  "tools.infinite-corrugated-roof.why.title": {
-    "message": "为什么选择 Infinite Corrugated Roof？"
-  },
-  "tools.infinite-corrugated-roof.why.item1": {
-    "message": "基于网格面板系统的无限可扩展性。"
-  },
-  "tools.infinite-corrugated-roof.why.item2": {
-    "message": "使用 AnimationCurves 的动态波形曲线。"
-  },
-  "tools.infinite-corrugated-roof.why.item3": {
-    "message": "高级修改器：样条线变形和程序化噪声。"
-  },
-  "tools.infinite-corrugated-roof.why.item4": {
-    "message": "内置 3 级 LOD 系统和 FBX 烘焙。"
-  },
-  "tools.infinite-corrugated-roof.specs.req": {
-    "message": "需要 Unity 2021.3+"
-  },
-  "tools.infinite-corrugated-roof.specs.size": {
-    "message": "大小：2.5 MB"
-  },
-  "tools.infinite-corrugated-roof.specs.version": {
-    "message": "当前版本：v1.2.0"
-  },
-  "tools.simple-paint.title": {
-    "message": "Simple Paint"
-  },
-  "tools.simple-paint.description": {
-    "message": "适用于 Unity 项目的轻量级 2D 绘图系统。非常适合原型设计和游戏内绘图机制。"
-  },
-  "tools.simple-paint.feature.title": {
-    "message": "直接在贴图上绘画"
-  },
-  "tools.simple-paint.feature.desc": {
-    "message": "Simple Paint 提供简单的 API，以便你可以将绘图/绘画功能集成到游戏中。无论是画在墙上、在纸上签名，还是制造血迹，Simple Paint 都能流畅处理。"
-  },
-  "tools.simple-paint.feature1.title": {
-    "message": "着色器优化"
-  },
-  "tools.simple-paint.feature1.desc": {
-    "message": "使用 GPU 进行绘图，确保即使在移动设备上也不会掉帧。"
-  },
-  "tools.simple-paint.feature2.title": {
-    "message": "多种画笔类型"
-  },
-  "tools.simple-paint.feature2.desc": {
-    "message": "支持贴图画笔，让你能够创造真实的绘图效果。"
-  },
-  "tools.simple-paint.cta.desc": {
-    "message": "在几分钟内将专业的绘画系统集成到你的 Unity 项目中。"
-  },
-  "tools.simple-paint.req1": {
-    "message": "Unity 2020.3 LTS 或更高版本。"
-  },
-  "tools.simple-paint.req2": {
-    "message": "支持 Built-in、URP 和 HDRP。"
-  },
-  "tools.simple-paint.req3": {
-    "message": "适用于 Windows、Mac、iOS 和 Android。"
-  },
-  "tools.common.read_docs": {
-    "message": "阅读文档"
-  },
-  "tools.common.pricing_desc": {
-    "message": "一次性付费。支持终身更新。"
-  },
-  "tools.common.buy_asset_store": {
-    "message": "在 ASSET STORE 购买"
-  },
-  "tools.common.buy_itch": {
-    "message": "在 ITCH.IO 购买"
-  },
-  "tools.common.get_started": {
-    "message": "立即开始"
-  },
-  "tools.common.system_req": {
-    "message": "系统要求"
-  },
-  "assets.horror-pack.title": {
-    "message": "恐怖环境包 Vol. 1"
-  },
-  "assets.horror-pack.description": {
-    "message": "用于废弃工业设置的模块化资产。适用于 Unity 和 Unreal 引擎的高质量 PBR 贴图。"
-  },
-  "assets.cta.acquire": {
-    "message": "立即获取"
-  },
-  "assets.common.price": {
-    "message": "价格"
-  }
+  "homepage.tagline": { "message": "独立恐怖工作室 & 技术解决方案" },
+  "homepage.cta.latest_game": { "message": "最新项目" },
+  "homepage.cta.explore_tools": { "message": "探索工具" },
+  "homepage.sections.about.title.part1": { "message": "我们是 " },
+  "homepage.sections.about.description": { "message": "一家专注于心理恐怖游戏与高性能 Unity 工具的技术型独立工作室。我们不断推动数字恐惧与创作流程效率的边界。" },
+  "homepage.sections.featured.title.part1": { "message": "核心 " },
+  "homepage.features.games.title": { "message": "游戏" },
+  "homepage.features.games.desc": { "message": "基于 HDRP 构建的深度氛围恐怖体验。" },
+  "homepage.features.games.cta": { "message": "立即游玩" },
+  "homepage.features.tools.title": { "message": "工具" },
+  "homepage.features.tools.desc": { "message": "我们自有生产流程中使用的专业 Unity 包。" },
+  "homepage.features.tools.cta": { "message": "查看规格" },
+  "homepage.features.assets.title": { "message": "资源" },
+  "homepage.features.assets.desc": { "message": "为您的项目准备的高品质 3D 模型与环境套件。" },
+  "homepage.features.assets.cta": { "message": "获取资源" },
+  "games.view_details": { "message": "规格" },
+  "games.view_devlogs": { "message": "查看开发日志" },
+  "tools.view_specs": { "message": "规格" },
+  "tools.view_docs": { "message": "文档" },
+  "tools.view_devlogs": { "message": "开发日志" },
+  "games.page.title.part1": { "message": "项目" },
+  "games.page.title.part2": { "message": "档案库" },
+  "tools.page.title.part1": { "message": "技术" },
+  "tools.page.title.part2": { "message": "系统" },
+  "assets.page.title.part1": { "message": "资源" },
+  "assets.page.title.part2": { "message": "登记处" },
+  "assets.page.description": { "message": "为现代渲染流水线优化的生产级资源。高保真模型、PBR 贴图与空间音频套件。" },
+  "games.lil-sis.title": { "message": "Lil Sis" },
+  "games.lil-sis.subtitle": { "message": "LIL SIS" },
+  "games.lil-sis.description": { "message": "一款心理向第一人称恐怖游戏。在寻找失踪妹妹的旅途中,探索一个破碎家庭被扭曲的回忆。基于 Unity HDRP 打造的极致沉浸感。" },
+  "games.common.watch_trailer": { "message": "观看预告片" },
+  "games.common.story_title": { "message": "故事" },
+  "games.common.features_title": { "message": "核心特色" },
+  "games.common.trailer_title": { "message": "预告片" },
+  "games.lil-sis.story.p1": { "message": "你扮演一位多年未归的哥哥。某天,你收到一封似乎来自已故母亲的奇怪信件,说妹妹需要帮助。" },
+  "games.lil-sis.story.p2": { "message": "无视心中的不祥预感,你回到了雾林深处那间木屋。没有人,没有任何生命的声响,只有用血写下的讯息与扭曲的回忆正缓慢吞噬着你。" },
+  "games.lil-sis.story.quote": { "message": "“你答应过永远不会离开我的……”" },
+  "games.lil-sis.feature1.title": { "message": "令人窒息的画面" },
+  "games.lil-sis.feature1.desc": { "message": "使用 Unity HDRP 的先进光照技术,呈现真实而压抑到令人窒息的黑暗氛围。" },
+  "games.lil-sis.feature2.title": { "message": "空间音频" },
+  "games.lil-sis.feature2.desc": { "message": "3D 空间音频系统让你能清晰听到猎捕者的每一步脚步与呼吸声。" },
+  "games.lil-sis.feature3.title": { "message": "心理谜题" },
+  "games.lil-sis.feature3.desc": { "message": "你不仅要逃跑,还需通过基于超自然现象的谜题系统拼凑被撕碎的记忆。" },
+  "tools.infinite-corrugated-roof.title": { "message": "Infinite Corrugated Roof" },
+  "tools.infinite-corrugated-roof.description": { "message": "Unity 的高性能程序化波纹屋顶系统。基于样条变形生成可定制的波纹屋顶。" },
+  "tools.infinite-corrugated-roof.hero.desc": { "message": "用于在 Unity 中生成高度可定制波纹屋顶系统的生产级程序化工具。" },
+  "tools.infinite-corrugated-roof.why.title": { "message": "为何选择 Infinite Corrugated Roof?" },
+  "tools.infinite-corrugated-roof.why.item1": { "message": "基于网格的面板系统,具备无限的可扩展性。" },
+  "tools.infinite-corrugated-roof.why.item2": { "message": "使用 AnimationCurves 实现动态波形。" },
+  "tools.infinite-corrugated-roof.why.item3": { "message": "高级修改器:样条变形与程序化噪声。" },
+  "tools.infinite-corrugated-roof.why.item4": { "message": "内置三级 LOD 系统与 FBX 烘焙。" },
+  "tools.infinite-corrugated-roof.specs.req": { "message": "需要 Unity 2021.3+" },
+  "tools.infinite-corrugated-roof.specs.size": { "message": "大小:2.5 MB" },
+  "tools.infinite-corrugated-roof.specs.version": { "message": "当前版本:v1.2.0" },
+  "tools.simple-paint.title": { "message": "Simple Paint" },
+  "tools.simple-paint.description": { "message": "用于 Unity 项目的轻量级 2D 绘画系统。适合原型与游戏内绘画机制。" },
+  "tools.simple-paint.feature.title": { "message": "直接在贴图上绘画" },
+  "tools.simple-paint.feature.desc": { "message": "Simple Paint 提供简洁的 API,可将绘画功能无缝集成到你的游戏。无论是涂鸦墙面、签字或制造血迹,Simple Paint 都能流畅处理。" },
+  "tools.simple-paint.feature1.title": { "message": "Shader 优化" },
+  "tools.simple-paint.feature1.desc": { "message": "使用 GPU 绘制,即便在移动平台也能保持稳定的 FPS。" },
+  "tools.simple-paint.feature2.title": { "message": "多种笔刷类型" },
+  "tools.simple-paint.feature2.desc": { "message": "支持贴图笔刷,可制作真实的绘画效果。" },
+  "tools.simple-paint.cta.desc": { "message": "几分钟内即可为你的 Unity 项目集成专业绘画系统。" },
+  "tools.simple-paint.req1": { "message": "Unity 2020.3 LTS 或更高版本。" },
+  "tools.simple-paint.req2": { "message": "支持 Built-in、URP 与 HDRP。" },
+  "tools.simple-paint.req3": { "message": "适用于 Windows、Mac、iOS 与 Android。" },
+  "tools.common.read_docs": { "message": "阅读文档" },
+  "tools.common.pricing_desc": { "message": "一次付费,终身更新支持。" },
+  "tools.common.buy_asset_store": { "message": "在 ASSET STORE 购买" },
+  "tools.common.buy_itch": { "message": "在 ITCH.IO 购买" },
+  "tools.common.buy_blender_market": { "message": "在 BLENDER MARKET 购买" },
+  "tools.common.get_started": { "message": "开始使用" },
+  "tools.common.system_req": { "message": "系统要求" },
+  "assets.horror-pack.title": { "message": "Horror Environment Vol. 1" },
+  "assets.horror-pack.description": { "message": "为废弃工业场景设计的模块化资源。适用于 Unity 与 Unreal Engine 的高品质 PBR 贴图。" },
+  "assets.cta.acquire": { "message": "获取" },
+  "assets.common.price": { "message": "价格" },
+  "blog.page.title.part1": { "message": "实地" },
+  "blog.page.title.part2": { "message": "报告" },
+  "blog.page.subtitle": { "message": "技术拆解、恐怖实体的实地分析,以及工作室工程日志。" },
+  "blog.post1.title": { "message": "用于血肉与撕裂的高级顶点位移" },
+  "blog.post1.desc": { "message": "使用 Shader Graph 与 URP 制作动态、柔软的表面,呈现深入骨髓的恐怖效果。" },
+  "blog.post2.title": { "message": "URP 中的体积雾:深入解析" },
+  "blog.post2.desc": { "message": "在不牺牲性能的前提下,优化大气散射以营造完美的雾气恐怖氛围。" },
+  "blog.post3.title": { "message": "双耳音频:真正恐惧的秘诀" },
+  "blog.post3.desc": { "message": "在 Unity 中实现 HRTF 空间音频,让玩家在现实中也忍不住回头。" },
+  "blog.post4.title": { "message": "用于故障特效的自定义 Scriptable Render Features" },
+  "blog.post4.desc": { "message": "利用 URP 渲染器制作生产级的数字腐化与神智效果。" },
+  "blog.post5.title": { "message": "大规模恐怖实体的 Compute Shader" },
+  "blog.post5.desc": { "message": "用 GPU 端逻辑模拟数千只成群的怪物。" },
+  "blog.post6.title": { "message": "为何《P.T.》仍让关卡设计师彻夜难眠" },
+  "blog.post6.desc": { "message": "技术拆解循环走廊,以及它如何掌控心理上的循环疲劳。" },
+  "blog.post7.title": { "message": "生化危机的镜头:固定 vs. 过肩" },
+  "blog.post7.desc": { "message": "分析镜头视角如何在恐怖史中决定恐惧与玩家自主性。" },
+  "blog.post8.title": { "message": "深海迷航:未知深度的恐惧" },
+  "blog.post8.desc": { "message": "探讨深海恐惧症与音效设计如何在非恐怖游戏中成为主要恐怖驱动力。" },
+  "blog.post9.title": { "message": "异形:隔离 ── 行为型 AI 拆解" },
+  "blog.post9.desc": { "message": "Creative Assembly 如何为异形构建非剧本化恐怖的双脑系统。" },
+  "blog.post10.title": { "message": "寂静岭之声:山冈晃的工业恐惧" },
+  "blog.post10.desc": { "message": "拆解白噪声与工业采样如何被用来制造不适感。" },
+  "blog.post11.title": { "message": "过渡到 Unity 6:Wave0084 的策略" },
+  "blog.post11.desc": { "message": "为何我们将《Lil Sis》的生产管线迁移到最新的 Unity 引擎。" },
+  "blog.post12.title": { "message": "独立预算下的动作捕捉" },
+  "blog.post12.desc": { "message": "使用 Rokoko 与 AI 视频工具,实现真实的恐怖动画。" }
 }

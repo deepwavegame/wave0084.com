@@ -1,227 +1,106 @@
 {
-  "homepage.tagline": {
-    "message": "Studio Horor Indie & Solusi Teknis"
-  },
-  "homepage.cta.latest_game": {
-    "message": "PROYEK TERBARU"
-  },
-  "homepage.cta.explore_tools": {
-    "message": "JELAJAHI ALAT"
-  },
-  "homepage.sections.about.title.part1": {
-    "message": "KAMI ADALAH "
-  },
-  "homepage.sections.about.description": {
-    "message": "Sebuah studio indie teknis yang berspesialisasi dalam horor psikologis dan alat Unity berkinerja tinggi. Kami melampaui batas ketakutan digital dan efisiensi alur kerja kreatif."
-  },
-  "homepage.sections.featured.title.part1": {
-    "message": "DINAMIKA "
-  },
-  "homepage.features.games.title": {
-    "message": "Permainan"
-  },
-  "homepage.features.games.desc": {
-    "message": "Pengalaman horor atmosfer yang mendalam yang dibangun di atas HDRP."
-  },
-  "homepage.features.games.cta": {
-    "message": "Mainkan Sekarang"
-  },
-  "homepage.features.tools.title": {
-    "message": "Alat"
-  },
-  "homepage.features.tools.desc": {
-    "message": "Paket Unity profesional yang digunakan dalam siklus produksi kami sendiri."
-  },
-  "homepage.features.tools.cta": {
-    "message": "Lihat Spek"
-  },
-  "homepage.features.assets.title": {
-    "message": "Aset"
-  },
-  "homepage.features.assets.desc": {
-    "message": "Model 3D berkualitas tinggi dan kit lingkungan untuk proyek Anda."
-  },
-  "homepage.features.assets.cta": {
-    "message": "Dapatkan Aset"
-  },
-  "games.view_details": {
-    "message": "SPESIFIKASI"
-  },
-  "tools.view_specs": {
-    "message": "SPESIFIKASI"
-  },
-  "tools.view_docs": {
-    "message": "DOKUMENTASI"
-  },
-  "games.page.title.part1": {
-    "message": "REPOSITORI"
-  },
-  "games.page.title.part2": {
-    "message": "PROYEK"
-  },
-  "tools.page.title.part1": {
-    "message": "SISTEM"
-  },
-  "tools.page.title.part2": {
-    "message": "TEKNIS"
-  },
-  "assets.page.title.part1": {
-    "message": "REGISTRI"
-  },
-  "assets.page.title.part2": {
-    "message": "ASET"
-  },
-  "assets.page.description": {
-    "message": "Aset tingkat produksi yang dioptimalkan untuk pipa rendering modern. Model fidelitas tinggi, tekstur PBR, dan kit audio spasial."
-  },
-  "games.lil-sis.title": {
-    "message": "Lil Sis - Adik Perempuanku"
-  },
-  "games.lil-sis.subtitle": {
-    "message": "ADIK PEREMPUANKU"
-  },
-  "games.lil-sis.description": {
-    "message": "Horor psikologis sudut pandang pertama. Jelajahi kenangan menyimpang dari rumah yang hancur saat Anda mencari saudara Anda yang hilang. Dibangun di atas Unity HDRP untuk imersi ekstrem."
-  },
-  "games.common.watch_trailer": {
-    "message": "Tonton Trailer"
-  },
-  "games.common.story_title": {
-    "message": "Cerita"
-  },
-  "games.common.features_title": {
-    "message": "Fitur Utama"
-  },
-  "games.common.trailer_title": {
-    "message": "Trailer"
-  },
-  "games.view_devlogs": {
-    "message": "LIHAT LOG PENGEMBANGAN"
-  },
-  "games.lil-sis.story.p1": {
-    "message": "Anda bermain sebagai kakak laki-laki yang telah lama meninggalkan rumah. Suatu hari, Anda menerima surat aneh yang konon dari mendiang ibu Anda, yang mengatakan bahwa adik perempuan Anda membutuhkan bantuan."
-  },
-  "games.lil-sis.story.p2": {
-    "message": "Mengabaikan firasat buruk Anda, Anda kembali ke rumah kayu jauh di dalam hutan berkabut. Tidak ada orang, tidak ada suara kehidupan, hanya pesan darah dan kenangan menyimpang yang perlahan memakan Anda."
-  },
-  "games.lil-sis.story.quote": {
-    "message": "\"Kamu berjanji tidak akan pernah meninggalkanku...\""
-  },
-  "games.lil-sis.feature1.title": {
-    "message": "Grafis yang Menghantui"
-  },
-  "games.lil-sis.feature1.desc": {
-    "message": "Menggunakan teknologi pencahayaan canggih di Unity HDRP, menghadirkan atmosfer yang realistis dan gelap hingga ke titik mencekik."
-  },
-  "games.lil-sis.feature2.title": {
-    "message": "Audio Spasial"
-  },
-  "games.lil-sis.feature2.desc": {
-    "message": "Sistem audio spasial 3D memungkinkan Anda mendengar dengan jelas setiap langkah kaki atau napas dari kekuatan yang memburu Anda."
-  },
-  "games.lil-sis.feature3.title": {
-    "message": "Teka-teki Psikologis"
-  },
-  "games.lil-sis.feature3.desc": {
-    "message": "Bukan sekadar melarikan diri, Anda perlu mencari tahu dan menyusun kembali ingatan melalui sistem teka-teki berdasarkan fenomena supernatural."
-  },
-  "tools.infinite-corrugated-roof.title": {
-    "message": "Infinite Corrugated Roof"
-  },
-  "tools.infinite-corrugated-roof.description": {
-    "message": "Sistem atap prosedural berperforma tinggi untuk Unity. Hasilkan atap bergelombang yang dapat disesuaikan dengan deformasi spline."
-  },
-  "tools.infinite-corrugated-roof.hero.desc": {
-    "message": "Alat prosedural siap produksi untuk menghasilkan sistem atap bergelombang yang sangat dapat disesuaikan di Unity."
-  },
-  "tools.infinite-corrugated-roof.why.title": {
-    "message": "Mengapa memilih Infinite Corrugated Roof?"
-  },
-  "tools.infinite-corrugated-roof.why.item1": {
-    "message": "Skalabilitas tanpa batas dengan sistem panel berbasis kisi."
-  },
-  "tools.infinite-corrugated-roof.why.item2": {
-    "message": "Profil gelombang dinamis menggunakan AnimationCurves."
-  },
-  "tools.infinite-corrugated-roof.why.item3": {
-    "message": "Modifier tingkat lanjut: Spline Deform & Procedural Noise."
-  },
-  "tools.infinite-corrugated-roof.why.item4": {
-    "message": "Sistem LOD 3 tingkat bawaan & pemanggangan FBX."
-  },
-  "tools.infinite-corrugated-roof.specs.req": {
-    "message": "Membutuhkan Unity 2021.3+"
-  },
-  "tools.infinite-corrugated-roof.specs.size": {
-    "message": "Ukuran: 2.5 MB"
-  },
-  "tools.infinite-corrugated-roof.specs.version": {
-    "message": "Versi Saat Ini: v1.2.0"
-  },
-  "tools.simple-paint.title": {
-    "message": "Simple Paint"
-  },
-  "tools.simple-paint.description": {
-    "message": "Sistem lukis 2D ringan untuk proyek Unity. Sempurna untuk pembuatan prototipe dan mekanik menggambar dalam game."
-  },
-  "tools.simple-paint.feature.title": {
-    "message": "Melukis Langsung pada Tekstur"
-  },
-  "tools.simple-paint.feature.desc": {
-    "message": "Simple Paint menyediakan API sederhana sehingga Anda dapat mengintegrasikan fitur menggambar/melukis ke dalam game Anda. Baik itu melukis di dinding, menandatangani kertas, atau membuat noda darah, Simple Paint menanganinya dengan lancar."
-  },
-  "tools.simple-paint.feature1.title": {
-    "message": "Shader yang Dioptimalkan"
-  },
-  "tools.simple-paint.feature1.desc": {
-    "message": "Menggunakan GPU untuk menggambar, memastikan FPS tidak turun bahkan di ponsel."
-  },
-  "tools.simple-paint.feature2.title": {
-    "message": "Beberapa Tipe Kuas"
-  },
-  "tools.simple-paint.feature2.desc": {
-    "message": "Mendukung Kuas Tekstur, memungkinkan Anda menciptakan efek gambar yang realistis."
-  },
-  "tools.simple-paint.cta.desc": {
-    "message": "Integrasikan sistem melukis profesional ke dalam proyek Unity Anda dalam hitungan menit."
-  },
-  "tools.simple-paint.req1": {
-    "message": "Unity 2020.3 LTS atau lebih tinggi."
-  },
-  "tools.simple-paint.req2": {
-    "message": "Mendukung Built-in, URP, dan HDRP."
-  },
-  "tools.simple-paint.req3": {
-    "message": "Bekerja di Windows, Mac, iOS, dan Android."
-  },
-  "tools.common.read_docs": {
-    "message": "Baca Dokumentasi"
-  },
-  "tools.common.pricing_desc": {
-    "message": "Pembayaran satu kali. Dukungan pembaruan seumur hidup."
-  },
-  "tools.common.buy_asset_store": {
-    "message": "BELI DI ASSET STORE"
-  },
-  "tools.common.buy_itch": {
-    "message": "BELI DI ITCH.IO"
-  },
-  "tools.common.get_started": {
-    "message": "Mulai Sekarang"
-  },
-  "tools.common.system_req": {
-    "message": "Persyaratan Sistem"
-  },
-  "assets.horror-pack.title": {
-    "message": "Paket Lingkungan Horor Vol. 1"
-  },
-  "assets.horror-pack.description": {
-    "message": "Aset modular untuk pengaturan industri yang ditinggalkan. Tekstur PBR berkualitas tinggi untuk Unity dan Unreal Engine."
-  },
-  "assets.cta.acquire": {
-    "message": "DAPATKAN"
-  },
-  "assets.common.price": {
-    "message": "Harga"
-  }
+  "homepage.tagline": { "message": "Studio Horor Indie & Solusi Teknis" },
+  "homepage.cta.latest_game": { "message": "PROYEK TERBARU" },
+  "homepage.cta.explore_tools": { "message": "JELAJAHI TOOL" },
+  "homepage.sections.about.title.part1": { "message": "KAMI ADALAH " },
+  "homepage.sections.about.description": { "message": "Sebuah studio indie teknis yang berfokus pada horor psikologis dan tool Unity berkinerja tinggi. Kami mendorong batas ketakutan digital dan efisiensi alur kerja kreatif." },
+  "homepage.sections.featured.title.part1": { "message": "INTI " },
+  "homepage.features.games.title": { "message": "Game" },
+  "homepage.features.games.desc": { "message": "Pengalaman horor mendalam beratmosfer pekat di atas HDRP." },
+  "homepage.features.games.cta": { "message": "Mainkan" },
+  "homepage.features.tools.title": { "message": "Tool" },
+  "homepage.features.tools.desc": { "message": "Paket Unity profesional yang kami pakai dalam siklus produksi kami sendiri." },
+  "homepage.features.tools.cta": { "message": "Lihat Spesifikasi" },
+  "homepage.features.assets.title": { "message": "Aset" },
+  "homepage.features.assets.desc": { "message": "Model 3D berkualitas tinggi dan kit lingkungan untuk proyekmu." },
+  "homepage.features.assets.cta": { "message": "Ambil Aset" },
+  "games.view_details": { "message": "SPESIFIKASI" },
+  "games.view_devlogs": { "message": "LIHAT DEV LOG" },
+  "tools.view_specs": { "message": "SPESIFIKASI" },
+  "tools.view_docs": { "message": "DOKUMENTASI" },
+  "tools.view_devlogs": { "message": "DEV LOG" },
+  "games.page.title.part1": { "message": "ARSIP" },
+  "games.page.title.part2": { "message": "PROYEK" },
+  "tools.page.title.part1": { "message": "SISTEM" },
+  "tools.page.title.part2": { "message": "TEKNIS" },
+  "assets.page.title.part1": { "message": "REGISTRI" },
+  "assets.page.title.part2": { "message": "ASET" },
+  "assets.page.description": { "message": "Aset berkualitas produksi yang dioptimalkan untuk pipeline render modern. Model fidelitas tinggi, tekstur PBR, dan kit audio spasial." },
+  "games.lil-sis.title": { "message": "Lil Sis" },
+  "games.lil-sis.subtitle": { "message": "LIL SIS" },
+  "games.lil-sis.description": { "message": "Horor psikologis sudut pandang orang pertama. Telusuri ingatan yang terdistorsi dari rumah yang hancur saat kau mencari adikmu yang hilang. Dibangun di Unity HDRP untuk imersi ekstrem." },
+  "games.common.watch_trailer": { "message": "Tonton Trailer" },
+  "games.common.story_title": { "message": "Cerita" },
+  "games.common.features_title": { "message": "Fitur Utama" },
+  "games.common.trailer_title": { "message": "Trailer" },
+  "games.lil-sis.story.p1": { "message": "Kau memerankan kakak laki-laki yang sudah bertahun-tahun pergi dari rumah. Suatu hari, kau menerima surat aneh seolah-olah dari ibumu yang telah meninggal, mengatakan bahwa adikmu butuh pertolongan." },
+  "games.lil-sis.story.p2": { "message": "Mengabaikan firasat buruk, kau kembali ke rumah kayu di dalam hutan berkabut. Tak ada siapa pun, tak ada suara kehidupan, hanya pesan-pesan berdarah dan ingatan yang terdistorsi perlahan menelanmu." },
+  "games.lil-sis.story.quote": { "message": "\"Kau pernah berjanji tidak akan meninggalkanku...\"" },
+  "games.lil-sis.feature1.title": { "message": "Grafis Menghantui" },
+  "games.lil-sis.feature1.desc": { "message": "Menggunakan teknologi pencahayaan canggih Unity HDRP, menghadirkan atmosfer realistis dan gelap hingga menyesakkan." },
+  "games.lil-sis.feature2.title": { "message": "Audio Spasial" },
+  "games.lil-sis.feature2.desc": { "message": "Sistem audio spasial 3D memungkinkanmu mendengar jelas setiap langkah atau napas dari sosok yang memburumu." },
+  "games.lil-sis.feature3.title": { "message": "Teka-Teki Psikologis" },
+  "games.lil-sis.feature3.desc": { "message": "Tidak hanya lari, kau juga harus menyusun kembali ingatan melalui sistem teka-teki berbasis fenomena supernatural." },
+  "tools.infinite-corrugated-roof.title": { "message": "Infinite Corrugated Roof" },
+  "tools.infinite-corrugated-roof.description": { "message": "Sistem atap bergelombang prosedural berkinerja tinggi untuk Unity. Hasilkan atap bergelombang yang bisa dikustomisasi dengan deformasi spline." },
+  "tools.infinite-corrugated-roof.hero.desc": { "message": "Tool prosedural siap produksi untuk menghasilkan sistem atap bergelombang yang sangat bisa dikustomisasi di Unity." },
+  "tools.infinite-corrugated-roof.why.title": { "message": "Mengapa memilih Infinite Corrugated Roof?" },
+  "tools.infinite-corrugated-roof.why.item1": { "message": "Skalabilitas tanpa batas dengan sistem panel berbasis grid." },
+  "tools.infinite-corrugated-roof.why.item2": { "message": "Profil gelombang dinamis menggunakan AnimationCurves." },
+  "tools.infinite-corrugated-roof.why.item3": { "message": "Modifier lanjutan: Spline Deform & Procedural Noise." },
+  "tools.infinite-corrugated-roof.why.item4": { "message": "Sistem LOD 3 tingkat & FBX baking bawaan." },
+  "tools.infinite-corrugated-roof.specs.req": { "message": "Membutuhkan Unity 2021.3+" },
+  "tools.infinite-corrugated-roof.specs.size": { "message": "Ukuran: 2.5 MB" },
+  "tools.infinite-corrugated-roof.specs.version": { "message": "Versi saat ini: v1.2.0" },
+  "tools.simple-paint.title": { "message": "Simple Paint" },
+  "tools.simple-paint.description": { "message": "Sistem painting 2D ringan untuk proyek Unity. Sempurna untuk prototyping dan mekanik menggambar dalam game." },
+  "tools.simple-paint.feature.title": { "message": "Painting Langsung pada Tekstur" },
+  "tools.simple-paint.feature.desc": { "message": "Simple Paint menyediakan API sederhana sehingga kamu bisa mengintegrasikan fitur menggambar/painting ke dalam gamemu. Apakah itu coretan dinding, tanda tangan kertas, atau bercak darah, Simple Paint menanganinya dengan mulus." },
+  "tools.simple-paint.feature1.title": { "message": "Shader Teroptimasi" },
+  "tools.simple-paint.feature1.desc": { "message": "Menggunakan GPU untuk menggambar, memastikan FPS tetap stabil bahkan di mobile." },
+  "tools.simple-paint.feature2.title": { "message": "Banyak Jenis Brush" },
+  "tools.simple-paint.feature2.desc": { "message": "Mendukung Texture Brush, memungkinkanmu membuat efek menggambar yang realistis." },
+  "tools.simple-paint.cta.desc": { "message": "Integrasikan sistem painting profesional ke proyek Unity-mu dalam hitungan menit." },
+  "tools.simple-paint.req1": { "message": "Unity 2020.3 LTS atau lebih tinggi." },
+  "tools.simple-paint.req2": { "message": "Mendukung Built-in, URP dan HDRP." },
+  "tools.simple-paint.req3": { "message": "Berjalan di Windows, Mac, iOS dan Android." },
+  "tools.common.read_docs": { "message": "Baca Dokumentasi" },
+  "tools.common.pricing_desc": { "message": "Bayar sekali. Dukungan update seumur hidup." },
+  "tools.common.buy_asset_store": { "message": "BELI DI ASSET STORE" },
+  "tools.common.buy_itch": { "message": "BELI DI ITCH.IO" },
+  "tools.common.buy_blender_market": { "message": "BELI DI BLENDER MARKET" },
+  "tools.common.get_started": { "message": "Mulai" },
+  "tools.common.system_req": { "message": "Persyaratan Sistem" },
+  "assets.horror-pack.title": { "message": "Horror Environment Vol. 1" },
+  "assets.horror-pack.description": { "message": "Aset modular untuk setting industri terbengkalai. Tekstur PBR berkualitas tinggi untuk Unity dan Unreal Engine." },
+  "assets.cta.acquire": { "message": "AMBIL" },
+  "assets.common.price": { "message": "Harga" },
+  "blog.page.title.part1": { "message": "LAPORAN" },
+  "blog.page.title.part2": { "message": "LAPANGAN" },
+  "blog.page.subtitle": { "message": "Pembedahan teknis, analisis lapangan entitas horor, dan log rekayasa studio." },
+  "blog.post1.title": { "message": "Vertex Displacement Lanjutan untuk Daging & Darah" },
+  "blog.post1.desc": { "message": "Membuat permukaan dinamis dan kenyal menggunakan Shader Graph dan URP untuk efek horor viseral." },
+  "blog.post2.title": { "message": "Volumetric Fog di URP: Pembedahan Mendalam" },
+  "blog.post2.desc": { "message": "Mengoptimalkan atmospheric scattering untuk atmosfer horor berkabut yang sempurna tanpa membunuh performa." },
+  "blog.post3.title": { "message": "Audio Binaural: Rahasia Ketakutan Sejati" },
+  "blog.post3.desc": { "message": "Cara mengimplementasikan HRTF spatial audio di Unity sehingga pemain benar-benar menoleh di dunia nyata." },
+  "blog.post4.title": { "message": "Custom Scriptable Render Features untuk Efek Glitch" },
+  "blog.post4.desc": { "message": "Menggunakan renderer URP untuk membuat efek korupsi digital dan kewarasan kelas produksi." },
+  "blog.post5.title": { "message": "Compute Shaders untuk Entitas Horor Berskala Besar" },
+  "blog.post5.desc": { "message": "Mensimulasikan ribuan makhluk berkerumun dengan logika berbasis GPU." },
+  "blog.post6.title": { "message": "Mengapa \"P.T.\" Masih Menghantui Desainer Level" },
+  "blog.post6.desc": { "message": "Pembedahan teknis koridor berulang dan cara ia menguasai kelelahan loop psikologis." },
+  "blog.post7.title": { "message": "Kamera Resident Evil: Fixed vs. Over-the-Shoulder" },
+  "blog.post7.desc": { "message": "Menganalisis bagaimana perspektif kamera menentukan rasa takut dan agensi pemain dalam sejarah horor." },
+  "blog.post8.title": { "message": "Subnautica: Horor Kedalaman yang Tak Diketahui" },
+  "blog.post8.desc": { "message": "Mengkaji thalassophobia dan desain suara sebagai penggerak horor utama dalam judul non-horor." },
+  "blog.post9.title": { "message": "Alien Isolation: Pembedahan AI Berbasis Perilaku" },
+  "blog.post9.desc": { "message": "Bagaimana Creative Assembly membangun sistem dua-otak untuk teror Xenomorph yang tak ber-skrip." },
+  "blog.post10.title": { "message": "Suara Silent Hill: Kengerian Industrial Akira Yamaoka" },
+  "blog.post10.desc": { "message": "Membedah penggunaan white noise dan sampel industri untuk menciptakan rasa tidak nyaman." },
+  "blog.post11.title": { "message": "Transisi ke Unity 6: Strategi Wave0084" },
+  "blog.post11.desc": { "message": "Mengapa kami memindahkan pipeline produksi ke engine Unity terbaru untuk \"Lil Sis\"." },
+  "blog.post12.title": { "message": "Motion Capture dengan Anggaran Indie" },
+  "blog.post12.desc": { "message": "Menggunakan Rokoko dan tool video AI untuk mencapai animasi horor yang realistis." }
 }
